@@ -3,11 +3,11 @@
     title: Club Officers
 ---
 
-## Become a Club Officer
+## Meet the Board
 
-Interested in become a club officer? Join the Board of Directors (BOD)! We are a group of members and volunteers who all care deeply about the club and enabling the MITOC community to enjoy being outside. We do everything from organizing Winter School, maintaining our gear and cabins, to recruiting new leaders and members.
+GREEN is led by a passionate group of UC Davis students committed to advancing agricultural technology and sustainability. Our board organizes events, manages club operations, and represents our community.
 
-We have elections for positions each year, generally in late spring. Nevertheless, anyone excited about committing time and passion to the club is welcome at any time. BOD is not a fixed size or a closed club, but a fluctuating group of fun folks, constantly looking for more people to get excited and integrated into the MITOC family. Keep an eye on the email lists for announcements of monthly meetings, which are open to all MITOC members. If you have a specific idea you want to spearhead, email [mitoc-owner@mit.edu](mailto:mitoc-owner@mit.edu).
+Interested in joining the board? Reach out to us at [think@ucdavis.edu](mailto:think@ucdavis.edu) or follow us on [Instagram](https://www.instagram.com/green.ucd/).
 
 ## Current Board of Directors
 <div>
@@ -29,31 +29,8 @@ We have elections for positions each year, generally in late spring. Nevertheles
   {% endfor %}
 </div>
 
-## Contact MITOC
+## Contact Us
 
-To contact the Board of Directors with general questions or comments about the club send mail to [mitoc-owner@mit.edu](mailto:mitoc-owner@mit.edu).
+For general questions about GREEN, email [think@ucdavis.edu](mailto:think@ucdavis.edu).
 
-If you have questions about office hours, gear rental, etc., please read the [gear rental information](/rentals) in full. If your question isn't answered there, email the desk workers at [mitoc-desk@mit.edu](mailto:mitoc-desk@mit.edu).
-
-To contact our cabin managers email [camelot-mgr](mailto:camelot-mgr@mit.edu) or [intervale-mgr](mailto:intervale-mgr@mit.edu).
-
-For anything safety-related (physical, emotional, or otherwise), contact:
-*   [Winter Safety Committee](mailto:mitoc-wsc@mit.edu)
-*   [3-Season Safety Committee](mailto:mitoc-3ssc@mit.edu)
-*   [Mediation Committee](mailto:mitoc-mediation@mit.edu)
-
-For particular MITOC events, contact:
-*   [Winter School](mailto:ws-chair@mit.edu)
-*   [Circus](mailto:circus-chair@mit.edu)
-
-For particular MITOC activities, contact:
-*   [3 season hiking](mailto:3s-hiking-chair@mit.edu)
-*   [Climbing](mailto:climbing-chair@mit.edu)
-*   [Backcountry skiing](mailto:bcski-chair@mit.edu)
-*   [Mountaineering](mailto:mountaineering-chair@mit.edu)
-*   [Mountain biking](mailto:mtnbike-chair@mit.edu)
-*   [Boathouse](mailto:boathouse-mgr@mit.edu)
-
-MITOC maintains a “zero-tolerance” policy (resulting in removal from the club) for the following behaviors: stalking, violent threats of any kind, physical violence (including sexual assault), domestic/dating violence, and sexual harassment. Reach out to [mitoc-mediation@mit.edu](mailto:mitoc-mediation@mit.edu) with questions/concerns.
-
-Please note that Mediation Chairs are not a fully confidential source, and information may be shared with MITOC leadership on a need-to-know basis for the health/safety of the club. Students/MIT-affiliates are also encouraged to reach out to [MIT resources](https://idhr.mit.edu/supportive-measures/resources/students/)
+Follow us on [Instagram @green.ucd](https://www.instagram.com/green.ucd/) or join our [Discord](https://discord.com/invite/5krgBsWp3r).
