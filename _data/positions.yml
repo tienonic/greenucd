@@ -12,6 +12,10 @@
       description: Manages reimbursements and requisitions from the club; prepares annual financial report
       officers:
         - ArluyaSisomvang
+    - title: Events Coordinator
+      description: Plans and organizes club events
+      officers:
+        - NicholasMelnichenko
     - title: Bursar
       description: Manages club revenue
       officers:
