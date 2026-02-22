@@ -22,6 +22,7 @@ We have elections for positions each year, generally in late spring. Nevertheles
             <em>{{ officer.name }}<br/>
             {{ position.title }}<br/></em>
             {{ position.description }}
+            {% if officer.bio %}<p><small>{{ officer.bio }}</small></p>{% endif %}
           </div>
         {% endfor %}
       {% endfor %}
