@@ -292,6 +292,12 @@ body {
   color: #1a7a2e;
 }
 
+.green-navbar .dropdown-header {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
 /* Hero */
 .green-hero {
   position: relative;
