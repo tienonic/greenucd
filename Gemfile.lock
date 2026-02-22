@@ -25,7 +25,6 @@ GEM
       rainbow (~> 3.0)
       typhoeus (~> 1.3)
       yell (~> 2.0)
-    htmlcompressor (0.3.1)
     http_parser.rb (0.8.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
@@ -44,9 +43,6 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
-    jekyll-jolt (0.23.0)
-      htmlcompressor (~> 0.3.1)
-      jekyll (>= 3.1.2)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-target-blank (2.0.2)
@@ -100,7 +96,6 @@ DEPENDENCIES
   bigdecimal
   html-proofer (~> 3.13)
   jekyll (~> 3.8)
-  jekyll-jolt
   jekyll-target-blank
   kramdown-parser-gfm
 
@@ -118,11 +113,9 @@ CHECKSUMS
   ffi (1.17.3-x86_64-linux-gnu) sha256=3746b01f677aae7b16dc1acb7cb3cc17b3e35bdae7676a3f568153fb0e2c887f
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   html-proofer (3.19.4) sha256=879420631c0271bccabcc1725663ce118bb6390fe26a7b38e22ecd886d8da62e
-  htmlcompressor (0.3.1) sha256=779b01f8720c62f7c6389d8db86df2c8467b20dd36477741eb07cbaaaa9f1210
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   jekyll (3.10.0) sha256=c4213b761dc7dfe7d499eb742d0476a02d8503e440c2610e19774ee7f0db8d90
-  jekyll-jolt (0.23.0) sha256=7f9daeac2eed8a88ff5fe9021cf5d20e338403999667befa79de2f57a60033c2
   jekyll-sass-converter (1.5.2) sha256=53773669e414dc3bb070113befacb808576025a28cfa4a4accc682e90a9c1101
   jekyll-target-blank (2.0.2) sha256=db988ba0b1a12b9841a864e77939ffecc27fbdce28916cec631ea047e6b91f94
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
