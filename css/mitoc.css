@@ -449,32 +449,7 @@ body {
 .green-photo-4 img { width: 242px; height: 242px; }
 
 @media (max-width: 767px) {
-  .green-hero {
-    height: 300px;
-    margin: -20px -15px 24px;
-    width: calc(100% + 30px);
+  .green-main {
+    margin-top: 8px;
   }
-  .green-hero-text h1 { font-size: 2rem; }
-  .green-hero-text { left: 20px; bottom: 24px; }
-
-  .green-scrapbook {
-    gap: 14px;
-    padding: 16px 0 28px;
-  }
-
-  .green-photo {
-    flex: 0 0 calc(50% - 7px);
-    padding: 7px 7px 24px 7px;
-    margin-top: 0 !important;
-  }
-
-  .green-photo img {
-    width: 100% !important;
-    height: 120px !important;
-  }
-
-  .green-photo-1 { transform: rotate(-1.5deg); }
-  .green-photo-2 { transform: rotate(1deg); }
-  .green-photo-3 { transform: rotate(-0.8deg); }
-  .green-photo-4 { transform: rotate(2deg); }
 }
