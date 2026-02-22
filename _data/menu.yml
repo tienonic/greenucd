@@ -1,8 +1,20 @@
+- title: Get Involved
+  items:
+    - title: As a Participant
+      items:
+        - title: Mailing Lists
+          href: /mailing-lists
+        - title: Become a Member
+          href: /join
+        - title: Calendar
+          href: /calendar
+    - title: As a Leader
+      items:
+        - title: Getting More Involved
+          href: /get-involved/getting-more-involved
 - title: About
   href: "#about"
 - title: Board
-  href: "#board"
-- title: Calendar
-  href: "#calendar"
+  href: /about/officers
 - title: Join Us
   href: "https://docs.google.com/forms/d/e/1FAIpQLScrcE9ti-PTqw0fUoqXD2byau2iLwoi_BWdDMK-fR5iB7wEAg/viewform"

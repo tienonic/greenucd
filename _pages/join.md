@@ -1,21 +1,21 @@
 ---
     permalink: /join
     title: Become a Member
-    subtitle: It's easy to become a member, and anyone can join.
+    subtitle: Anyone at UC Davis can join GREEN — it's free and open to all.
 ---
 
-### 1. (Optional) Join [MITOC mailing lists](/mailing-lists)
+### 1. Follow us on social media
 
-Mailing lists are our primary way to announce upcoming events and organize informal trips. You do _not_ have to pay the membership fee to join mailing lists, and paying the fee will _not_ automatically sign you up for any mailing lists!
+Stay up to date with events and announcements by following us on [Instagram @green.ucd](https://www.instagram.com/green.ucd/) and joining our [Discord server](https://discord.com/invite/5krgBsWp3r).
 
-### 2. (Recommended) [Make an account on our trips site](https://mitoc-trips.mit.edu/accounts/signup/)
+### 2. Fill out our interest form
 
-An account is necessary to participate on official trips, and it makes it easier to pay membership dues and complete waivers.
+Let us know you're interested and we'll keep you in the loop on upcoming events, workshops, and projects.
 
-### 3. [Pay your annual membership dues](https://mitoc-trips.mit.edu/profile/membership)
+**[Join Us](https://docs.google.com/forms/d/e/1FAIpQLScrcE9ti-PTqw0fUoqXD2byau2iLwoi_BWdDMK-fR5iB7wEAg/viewform)**
 
-It is mandatory that you join MITOC before renting gear or signing up for a trip. _Membership dues are non-refundable._
+### 3. Show up!
 
-### 4. [Sign our liability waiver](https://mitoc-trips.mit.edu/profile/waiver)
+Come to one of our events. No experience needed — just a curiosity about agricultural technology and sustainability.
 
-If you opted not to make an account, please use the same email address that you used when paying membership dues.
+Questions? Email us at [think@ucdavis.edu](mailto:think@ucdavis.edu).
