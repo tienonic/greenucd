@@ -3,14 +3,8 @@
     title: Calendar
 ---
 
-A great way to stay informed is to check our Google calendar. This calendar has our events, office hours, and cabin reservations.
-
-Add the MITOC calendar to your Google calendar by pressing ![Google calendar logo](/images/calendar/googleplus.png) (lower right corner of the calendar.)
-
-<span style="color:#125A12;">Green = MITOC events and office hours</span>  
-<span style="color:#B1440E;">Red = Camelot reservations</span>  
-<span style="color:#AB8B00;">Yellow = Intervale reservations</span>
+Stay up to date with GREEN events, workshops, and meetups. You can add this calendar to your own Google Calendar by clicking the **+** button in the bottom right corner of the calendar below.
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=480&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=nf2filjvmi1s2kipeo5pahr56c%40group.calendar.google.com&amp;color=%23125A12&amp;src=hpmvtpt13cgsnjkh0lie228r3g%40group.calendar.google.com&amp;color=%23B1440E&amp;src=03qna0288hjuolh6tnb0cjifpo%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style=" border-width:0 " width="1280" height="960" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showPrint=0&showCalendars=0&height=600&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
