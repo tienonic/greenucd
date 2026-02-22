@@ -1,50 +1,74 @@
 ---
 permalink: /
 layout: default
+title: GREEN at UC Davis
 ---
 
-<script>
-    // Redirect a few popular pages' old URLs towards the new ones
-    var redirections = {
-        '#pay': '/pay',
-        '#calendar': '/calendar',
-        '#donate': '/donate',
-        '#join': '/join',
-        '#mailing-lists': '/mailing-lists',
-        '#rental': '/rentals'
-    }
-    if (redirections[window.location.hash]) {
-        window.location = redirections[window.location.hash]
-    }
-</script>
-
-<div class="row hidden-sm hidden-xs" style="margin-bottom: 20px;">
-    <div class="col-md-3" style="overflow:hidden;"><img src="images/front/pic1.jpg" alt="" width="220" height="286"/>
-    </div>
-    <div class="col-md-3" style="overflow:hidden;"><img src="images/front/pic2.jpg" alt="" width="220" height="286"/>
-    </div>
-    <div class="col-md-3" style="overflow:hidden;"><img src="images/front/pic3.jpg" alt="" width="220" height="286"/>
-    </div>
-    <div class="col-md-3" style="overflow:hidden;"><img src="images/front/pic4.jpg" alt="" width="220" height="286"/>
-    </div>
-</div>
-
-<div class="row" markdown="1">
+<div id="about" class="row" style="margin-top: 20px;" markdown="1">
 <div class="col-md-8" markdown="1">
 
-The MIT Outing Club (MITOC) is dedicated to helping the MIT and Cambridge community enjoy the great outdoors. MITOC members are students, staff, alumni, and faculty from MIT and the greater academic community who come together for year-round outdoor recreation in the company of other enthusiasts. MITOC members hike, climb, ski, bike, camp, tramp, backpack, snowshoe, and canoe to the highest, widest, most scenic vistas in New England and beyond. Join us for friendship, adventure, and fun!
+## Welcome to GREEN at UC Davis
 
-If you're new to MITOC, you should start by joining some of our [email lists](/mailing-lists), which are used to announce club events and organize informal trips. Our [calendar](/calendar) and [trip signup](https://mitoc-trips.mit.edu/trips/) are also good places to find upcoming MITOC events.
+**GREEN (Green Innovation Network)** is a student-led AgTech organization at UC Davis passionate about tackling environmental and agricultural technology challenges through collaboration, hands-on projects, and cutting-edge research.
 
-If you're interested in renting gear from MITOC, please read the [gear rental information](/rentals) before coming to office hours.
-
-If you want to sign up for a MITOC-organized trip or rent gear from us, you'll have to [become a member](/join).
+We organize workshops, speaker series, and projects focused on sustainable agriculture, renewable energy, and environmental conservation. Join UC Davis's premier green tech club to connect, create, and drive change toward a greener future.
 
 </div>
-<div class="col-md-4">
-    <div class="embed-responsive embed-responsive-square">
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=nf2filjvmi1s2kipeo5pahr56c@group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York" style="border-width:0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+<div class="col-md-4" markdown="1">
+**Contact:** [greenucd@gmail.com](mailto:greenucd@gmail.com)
+
+**Instagram:** [@green.ucd](https://www.instagram.com/green.ucd/)
+
+**Discord:** [Join our server](https://discord.com/invite/5krgBsWp3r)
+</div>
+</div>
+
+---
+
+<div id="calendar" style="margin: 30px 0;">
+<h2>Events Calendar</h2>
+<div class="embed-responsive embed-responsive-square">
+  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=400&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</div>
+</div>
+
+---
+
+<div id="board" style="margin: 30px 0;">
+<h2>Board Members</h2>
+<div class="row">
+
+  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
+    <div class="thumbnail" style="padding: 15px;">
+      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
+      <h4 style="margin: 5px 0;">Name</h4>
+      <p style="color: #666; margin: 0;">President</p>
     </div>
-</div>
-</div>
+  </div>
 
+  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
+    <div class="thumbnail" style="padding: 15px;">
+      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
+      <h4 style="margin: 5px 0;">Name</h4>
+      <p style="color: #666; margin: 0;">Vice President</p>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
+    <div class="thumbnail" style="padding: 15px;">
+      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
+      <h4 style="margin: 5px 0;">Name</h4>
+      <p style="color: #666; margin: 0;">Treasurer</p>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
+    <div class="thumbnail" style="padding: 15px;">
+      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
+      <h4 style="margin: 5px 0;">Name</h4>
+      <p style="color: #666; margin: 0;">Secretary</p>
+    </div>
+  </div>
+
+</div>
+</div>
