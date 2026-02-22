@@ -456,7 +456,25 @@ body {
   }
   .green-hero-text h1 { font-size: 2rem; }
   .green-hero-text { left: 20px; bottom: 24px; }
-  .green-photo img { width: 150px !important; height: 150px !important; }
-  .green-photo-2 { margin-top: 0; }
-  .green-photo-3 { margin-top: 0; }
+
+  .green-scrapbook {
+    gap: 14px;
+    padding: 16px 0 28px;
+  }
+
+  .green-photo {
+    flex: 0 0 calc(50% - 7px);
+    padding: 7px 7px 24px 7px;
+    margin-top: 0 !important;
+  }
+
+  .green-photo img {
+    width: 100% !important;
+    height: 120px !important;
+  }
+
+  .green-photo-1 { transform: rotate(-1.5deg); }
+  .green-photo-2 { transform: rotate(1deg); }
+  .green-photo-3 { transform: rotate(-0.8deg); }
+  .green-photo-4 { transform: rotate(2deg); }
 }
