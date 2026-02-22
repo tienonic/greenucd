@@ -20,8 +20,7 @@ We have elections for positions each year, generally in late spring. Nevertheles
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
             <img height="100" width="100" alt="" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
             <em>{{ officer.name }}<br/>
-            {{ position.title }}<br/></em>
-            {{ position.description }}
+            {{ position.title }}</em>
             {% if officer.bio %}<p><small>{{ officer.bio }}</small></p>{% endif %}
           </div>
         {% endfor %}

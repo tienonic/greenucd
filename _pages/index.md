@@ -37,38 +37,21 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 <div id="board" style="margin: 30px 0;">
 <h2>Board Members</h2>
 <div class="row">
-
-  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
-    <div class="thumbnail" style="padding: 15px;">
-      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
-      <h4 style="margin: 5px 0;">Name</h4>
-      <p style="color: #666; margin: 0;">President</p>
-    </div>
-  </div>
-
-  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
-    <div class="thumbnail" style="padding: 15px;">
-      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
-      <h4 style="margin: 5px 0;">Name</h4>
-      <p style="color: #666; margin: 0;">Vice President</p>
-    </div>
-  </div>
-
-  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
-    <div class="thumbnail" style="padding: 15px;">
-      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
-      <h4 style="margin: 5px 0;">Name</h4>
-      <p style="color: #666; margin: 0;">Treasurer</p>
-    </div>
-  </div>
-
-  <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
-    <div class="thumbnail" style="padding: 15px;">
-      <img src="https://via.placeholder.com/120" alt="Board Member" class="img-circle" style="width:80px; height:80px; margin: 0 auto 10px;">
-      <h4 style="margin: 5px 0;">Name</h4>
-      <p style="color: #666; margin: 0;">Secretary</p>
-    </div>
-  </div>
-
+  {% assign exec = site.data.positions[0] %}
+  {% for position in exec.positions %}
+    {% for officer_id in position.officers %}
+      {% assign officer = site.data.officers[officer_id] %}
+      <div class="col-md-3 col-sm-6" style="margin-bottom: 20px; text-align: center;">
+        <div class="thumbnail" style="padding: 15px;">
+          <img src="/images/leaders/{{ officer.photo | default: 'beaver.jpg' }}" alt="{{ officer.name }}" class="img-circle" style="width:80px; height:80px; object-fit:cover; margin: 0 auto 10px;">
+          <h4 style="margin: 5px 0;">{{ officer.name }}</h4>
+          <p style="color: #666; margin: 0;">{{ position.title }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</div>
+<div style="text-align: center; margin-top: 15px;">
+  <a href="/about/officers" class="btn btn-default">View Full Board</a>
 </div>
 </div>
