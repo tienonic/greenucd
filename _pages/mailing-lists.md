@@ -5,7 +5,10 @@
 
 UC Davis uses **Sympa**, the campus email list processor, to manage mailing lists. It allows you to create email lists, add and remove subscribers, set up archives, and configure settings. The campus email list processor is available to all campus constituents.
 
-### GREEN-Related Lists
+### Agricultural Technology on Campus
+
+**[AET Undergrad](https://lists.ucdavis.edu/sympa/info/aetundergrad)**
+: Agricultural & Environmental Technology undergraduate list
 
 **[BAE All](https://lists.ucdavis.edu/sympa/info/bae-all)**
 : Biological & Agricultural Engineering department list
@@ -13,14 +16,18 @@ UC Davis uses **Sympa**, the campus email list processor, to manage mailing list
 **[Geospatial](https://lists.ucdavis.edu/sympa/info/geospatial)**
 : Geospatial topics, GIS, and remote sensing
 
-**[AET Undergrad](https://lists.ucdavis.edu/sympa/info/aetundergrad)**
-: Agricultural & Environmental Technology undergraduate list
+**[UC Davis Student Farm](mailto:ucdstudentfarm@ucdavis.edu)**
+: UC Davis Student Farm community list
 
 **[Vendevo](mailto:vendevo@ucdavis.edu)**
 : Viticulture & Enology
 
-**[UC Davis Student Farm](mailto:ucdstudentfarm@ucdavis.edu)**
-: UC Davis Student Farm community list
+### Contests
+
+**[AIFS Farm Robotics Challenge](https://aifs.ucdavis.edu/education-and-outreach/farm-robotics-challenge)**
+: Hosted by the AI Institute for Next Generation Food Systems (AIFS), supported by the USDA National Institute of Food and Agriculture (award #2020-67021-32855) in collaboration with the National Science Foundation, as well as a Google.org grant. A competition pushing the frontier of agricultural robotics and AI.
+
+### Other Initiatives
 
 **[SEED Central Students](mailto:seed_central_students@ucdavis.edu)**
 : SEED Central student community list
