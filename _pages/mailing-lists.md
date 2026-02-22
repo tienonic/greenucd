@@ -16,6 +16,15 @@ UC Davis uses **Sympa**, the campus email list processor, to manage mailing list
 **[AET Undergrad](https://lists.ucdavis.edu/sympa/info/aetundergrad)**
 : Agricultural & Environmental Technology undergraduate list
 
+**[Vendevo](mailto:vendevo@ucdavis.edu)**
+: Viticulture & Enology
+
+**[UC Davis Student Farm](mailto:ucdstudentfarm@ucdavis.edu)**
+: UC Davis Student Farm community list
+
+**[SEED Central Students](mailto:seed_central_students@ucdavis.edu)**
+: SEED Central student community list
+
 ### Stay Connected
 
 **[Discord](https://discord.com/invite/5krgBsWp3r)** — real-time conversations and event coordination
