@@ -26,7 +26,7 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 ---
 
 <div style="margin: 30px 0;">
-  <div style="display:flex; gap:25px; justify-content:center;">
+  <div style="display:flex; justify-content:space-between;">
     <img src="/images/green/booth.png" alt="GREEN booth" style="width:18%; aspect-ratio:2/3; object-fit:cover;">
     <img src="/images/green/meeting.png" alt="GREEN meeting" style="width:18%; aspect-ratio:2/3; object-fit:cover;">
     <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop" style="width:18%; aspect-ratio:2/3; object-fit:cover;">
@@ -35,7 +35,6 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 
   <div class="row" style="margin-top: 20px;">
     <div class="col-md-5" id="what-is-green">
-      <h2>What is GREEN?</h2>
       <p>GREEN (Green Innovation Network) is UC Davis's student-led AgTech club. We bring together students passionate about the future of agriculture through hands-on workshops, guest speakers, and collaborative projects.</p>
       <p>From IoT and precision agriculture to geospatial analysis and sustainable systems — we explore the technologies shaping the future of food and farming.</p>
     </div>
