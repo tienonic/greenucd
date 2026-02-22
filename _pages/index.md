@@ -26,19 +26,11 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 ---
 
 <div style="margin: 30px 0;">
-  <div class="row" style="margin-bottom: 0;">
-    <div class="col-xs-3" style="padding: 3px;">
-      <img src="/images/green/booth.png" alt="GREEN booth" style="width:100%; height:180px; object-fit:cover;">
-    </div>
-    <div class="col-xs-3" style="padding: 3px;">
-      <img src="/images/green/meeting.png" alt="GREEN meeting" style="width:100%; height:180px; object-fit:cover;">
-    </div>
-    <div class="col-xs-3" style="padding: 3px;">
-      <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop" style="width:100%; height:180px; object-fit:cover;">
-    </div>
-    <div class="col-xs-3" style="padding: 3px;">
-      <img src="/images/green/soldering.png" alt="GREEN soldering" style="width:100%; height:180px; object-fit:cover;">
-    </div>
+  <div style="display:flex; gap:15px; justify-content:center;">
+    <img src="/images/green/booth.png" alt="GREEN booth" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/meeting.png" alt="GREEN meeting" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/soldering.png" alt="GREEN soldering" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
   </div>
 
   <div class="row" style="margin-top: 20px;">
