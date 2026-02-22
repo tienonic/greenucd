@@ -27,9 +27,7 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 
 <div id="calendar" style="margin: 30px 0;">
 <h2>Events Calendar</h2>
-<div class="embed-responsive embed-responsive-square">
-  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=400&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
-</div>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=250&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="250" frameborder="0" scrolling="no"></iframe>
 </div>
 
 ---
