@@ -2,12 +2,14 @@
 
 This repository contains the source code of https://carrotcore.com.
 
+This site is forked from the [MITOC website](https://github.com/mitoc/mitoc-website) and adapted for GREEN at UC Davis.
+
 All members of the GREEN community are welcome to suggest edits by opening pull requests!
 
 If you'd like to change anything on the website, you can:
 - Read the rest of this short document to figure out how things work
 - Suggest a change on a file by clicking on the "Edit this file" button (see screenshot below). This will open a Pull Request (PR), which the webmasters will review. When the PR gets accepted and merged to the `main` version of the code, it will trigger an automatic deployment.
-- Don't hesitate to contact the GREEN webmasters if you need any help!
+- Don't hesitate to contact the GREEN webmasters at think@ucdavis.edu if you need any help!
 
 ## General
 
