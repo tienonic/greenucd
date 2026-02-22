@@ -25,9 +25,33 @@ We organize workshops, speaker series, and projects focused on sustainable agric
 
 ---
 
-<div id="calendar" style="margin: 30px 0;">
-<h2>Events Calendar</h2>
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=250&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="250" frameborder="0" scrolling="no"></iframe>
+<div style="margin: 30px 0;">
+  <div class="row" style="margin-bottom: 0;">
+    <div class="col-xs-3" style="padding: 3px;">
+      <img src="/images/green/booth.png" alt="GREEN booth" style="width:100%; height:180px; object-fit:cover;">
+    </div>
+    <div class="col-xs-3" style="padding: 3px;">
+      <img src="/images/green/meeting.png" alt="GREEN meeting" style="width:100%; height:180px; object-fit:cover;">
+    </div>
+    <div class="col-xs-3" style="padding: 3px;">
+      <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop" style="width:100%; height:180px; object-fit:cover;">
+    </div>
+    <div class="col-xs-3" style="padding: 3px;">
+      <img src="/images/green/soldering.png" alt="GREEN soldering" style="width:100%; height:180px; object-fit:cover;">
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 20px;">
+    <div class="col-md-5" id="what-is-green">
+      <h2>What is GREEN?</h2>
+      <p>GREEN (Green Innovation Network) is UC Davis's student-led AgTech club. We bring together students passionate about the future of agriculture through hands-on workshops, guest speakers, and collaborative projects.</p>
+      <p>From IoT and precision agriculture to geospatial analysis and sustainable systems — we explore the technologies shaping the future of food and farming.</p>
+    </div>
+    <div class="col-md-7" id="calendar">
+      <h2>Events Calendar</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=250&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="250" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
 </div>
 
 ---
@@ -49,5 +73,4 @@ We organize workshops, speaker series, and projects focused on sustainable agric
     {% endfor %}
   {% endfor %}
 </div>
-
 </div>
