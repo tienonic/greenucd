@@ -404,11 +404,11 @@ body {
   margin: 8px 0 6px 0;
 }
 
-/* Scrapbook gallery */
-.green-gallery-section {
-  margin: 16px 0 48px 0;
+.green-cal-section {
+  margin-bottom: 36px;
 }
 
+/* Scrapbook gallery */
 .green-scrapbook {
   display: flex;
   flex-wrap: wrap;
