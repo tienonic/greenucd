@@ -1,22 +1,30 @@
 ---
     permalink: /mailing-lists
-    title: Stay Connected
+    title: Mailing Lists
 ---
 
-The best ways to stay connected with GREEN at UC Davis are through our Discord server and Instagram. These are where we announce upcoming events, share opportunities, and coordinate trips and projects.
+Stay connected with GREEN at UC Davis through our mailing list and social channels.
+
+### GREEN Mailing List
+
+UC Davis uses **[Sympa](https://lists.ucdavis.edu)**, the campus email list processor, to manage mailing lists. It allows you to subscribe, unsubscribe, and browse archives.
+
+To join the GREEN mailing list, visit the [UC Davis Sympa portal](https://lists.ucdavis.edu) and search for GREEN, or email us at [think@ucdavis.edu](mailto:think@ucdavis.edu) to be added.
+
+The mailing list is our primary way to announce upcoming events, workshops, and opportunities. You do not have to be a paid member to join.
 
 ### Discord
 
-Join our Discord server to chat with members, find project collaborators, and get notified about upcoming events.
+For real-time conversations and event coordination, join our Discord server.
 
 **[Join the GREEN Discord](https://discord.com/invite/5krgBsWp3r)**
 
 ### Instagram
 
-Follow us on Instagram for event announcements, project highlights, and green tech content.
+Follow us for event announcements and green tech content.
 
 **[@green.ucd](https://www.instagram.com/green.ucd/)**
 
-### Email
+### Questions?
 
-For direct inquiries, reach us at [think@ucdavis.edu](mailto:think@ucdavis.edu).
+Email us at [think@ucdavis.edu](mailto:think@ucdavis.edu).
