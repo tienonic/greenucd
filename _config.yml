@@ -7,7 +7,6 @@ url: https://carrotcore.com
 include: ['_pages', '_redirects']
 
 plugins:
-  - jekyll-jolt
   - jekyll-target-blank
 
 exclude:
