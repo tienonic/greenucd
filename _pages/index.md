@@ -51,7 +51,5 @@ We organize workshops, speaker series, and projects focused on sustainable agric
     {% endfor %}
   {% endfor %}
 </div>
-<div style="text-align: center; margin-top: 15px;">
-  <a href="/about/officers" class="btn btn-default">View Full Board</a>
-</div>
+
 </div>
