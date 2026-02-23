@@ -46,6 +46,12 @@ layout: default
     <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
   </div>
   <div class="green-photo green-photo-4">
-    <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop">
+    <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
+  </div>
+  <div class="green-photo green-photo-5">
+    <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
+  </div>
+  <div class="green-photo green-photo-6">
+    <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
   </div>
 </div>

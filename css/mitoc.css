@@ -454,6 +454,12 @@ body {
 .green-photo-4 { transform: rotate(3.1deg); }
 .green-photo-4 img { width: 242px; height: 242px; }
 
+.green-photo-5 { transform: rotate(-1.7deg); margin-top: 20px; }
+.green-photo-5 img { width: 265px; height: 196px; }
+
+.green-photo-6 { transform: rotate(2.4deg); margin-top: -10px; }
+.green-photo-6 img { width: 210px; height: 265px; }
+
 @media (max-width: 991px) {
   .green-scrapbook {
     display: none !important;
