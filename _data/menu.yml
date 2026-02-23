@@ -18,6 +18,14 @@
       href: "#about"
     - title: Submit Photos to GREEN
       href: "https://docs.google.com/forms/d/e/1FAIpQLSfNgEubSImZLmMhQfOLD1P8DpgSzBjaji5xbQmujQqLHSX4Ug/viewform?usp=publish-editor"
+    - title: Connect
+      items:
+        - title: Substack
+          href: "https://substack.com/@greeninnovationnetwork"
+        - title: Instagram
+          href: "#"
+        - title: Discord
+          href: "#"
 - title: Board
   href: /about/officers
 - title: Join Us

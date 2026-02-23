@@ -342,7 +342,7 @@ body {
 /* Section titles */
 .green-section-title {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #1a7a2e;
   letter-spacing: 0.1em;
@@ -453,6 +453,15 @@ body {
 
 .green-photo-4 { transform: rotate(3.1deg); }
 .green-photo-4 img { width: 242px; height: 242px; }
+
+@media (max-width: 991px) {
+  .green-scrapbook {
+    display: none !important;
+  }
+  .green-hero {
+    display: none !important;
+  }
+}
 
 @media (max-width: 767px) {
   .green-main {
