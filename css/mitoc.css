@@ -469,7 +469,7 @@ body {
 .green-photo-5  img { width: 182px; height: 170px; }
 
 .green-photo-6  { transform: rotate(2.4deg); margin-top: -10px; }
-.green-photo-6  img { width: 182px; height: 170px; }
+.green-photo-6  img { width: 182px; height: 170px; object-position: bottom; }
 
 .green-photo-7  { transform: rotate(-2.1deg); }
 .green-photo-7  img { width: 182px; height: 144px; }
@@ -536,7 +536,7 @@ body {
 .officer-card {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 0 0 auto;
   padding: 0;
   margin-bottom: 40px;
 }
