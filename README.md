@@ -2,7 +2,7 @@
 
 This repository contains the source code of https://carrotcore.com.
 
-This site is forked from the [MITOC website](https://github.com/mitoc/mitoc-website) and adapted for GREEN at UC Davis.
+This site is forked from the [MITOC website]([https://github.com/mitoc/mitoc-website](https://github.com/mitoc/website)) and adapted for GREEN at UC Davis.
 
 All members of the GREEN community are welcome to suggest edits by opening pull requests!
 
