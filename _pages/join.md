@@ -18,4 +18,4 @@ Let us know you're interested and we'll keep you in the loop on upcoming events,
 
 Come to one of our events. No experience needed — just a curiosity about agricultural technology and sustainability.
 
-Questions? Email us at [think@ucdavis.edu](mailto:think@ucdavis.edu).
+Questions? Email us at [greenucd@gmail.com](mailto:greenucd@gmail.com).

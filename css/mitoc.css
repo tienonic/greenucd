@@ -543,6 +543,7 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: #1a1a1a;
+  white-space: nowrap;
 }
 .officer-title {
   font-family: 'JetBrains Mono', monospace;

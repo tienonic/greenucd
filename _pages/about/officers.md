@@ -7,7 +7,7 @@
 
 GREEN is led by a passionate group of UC Davis students committed to advancing agricultural technology and sustainability. Our board organizes events, manages club operations, and represents our community.
 
-Interested in joining the board? Reach out to us at [think@ucdavis.edu](mailto:think@ucdavis.edu) or follow us on [Instagram](https://www.instagram.com/green.ucd/).
+Interested in joining the board? Reach out to us at [greenucd@gmail.com](mailto:greenucd@gmail.com) or follow us on [Instagram](https://www.instagram.com/green.ucd/).
 
 ## Current Board of Directors
 <div>
@@ -33,6 +33,6 @@ Interested in joining the board? Reach out to us at [think@ucdavis.edu](mailto:t
 
 ## Contact Us
 
-For general questions about GREEN, email [think@ucdavis.edu](mailto:think@ucdavis.edu).
+For general questions about GREEN, email [greenucd@gmail.com](mailto:greenucd@gmail.com).
 
 Follow us on [Instagram @green.ucd](https://www.instagram.com/green.ucd/) or join our [Discord](https://discord.com/invite/5krgBsWp3r).

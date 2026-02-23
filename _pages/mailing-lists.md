@@ -64,4 +64,4 @@ For more information see the [UC Davis Electronic Mailing Lists guide](https://w
 
 ## Questions?
 
-Email us at [think@ucdavis.edu](mailto:think@ucdavis.edu).
+Email us at [greenucd@gmail.com](mailto:greenucd@gmail.com).
