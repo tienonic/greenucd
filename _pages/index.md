@@ -34,39 +34,37 @@ layout: default
   </div>
 </div>
 
-<!-- Desktop: scrapbook gallery -->
-<div class="green-scrapbook hidden-xs hidden-sm">
+<!-- Scrapbook gallery: desktop 2x5, mobile 2-col grid below calendar -->
+<div class="green-scrapbook">
   <div class="green-scrapbook-row">
     <div class="green-photo green-photo-1">
-      <img src="/images/green/soldering.png" alt="GREEN soldering">
-    </div>
-    <div class="green-photo green-photo-2">
-      <img src="/images/green/booth.png" alt="GREEN at the Picnic Day booth">
-    </div>
-    <div class="green-photo green-photo-3">
-      <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
-    </div>
-  </div>
-  <div class="green-scrapbook-row">
-    <div class="green-photo green-photo-4">
-      <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
-    </div>
-    <div class="green-photo green-photo-5">
-      <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
-    </div>
-    <div class="green-photo green-photo-6">
-      <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
-    </div>
-  </div>
-  <div class="green-scrapbook-row">
-    <div class="green-photo green-photo-7">
       <img src="/images/green/vineyard.png" alt="GREEN members at vineyard">
     </div>
-    <div class="green-photo green-photo-8">
+    <div class="green-photo green-photo-2">
+      <img src="/images/green/soldering.png" alt="GREEN soldering">
+    </div>
+    <div class="green-photo green-photo-3">
+      <img src="/images/green/booth.png" alt="GREEN at the Picnic Day booth">
+    </div>
+    <div class="green-photo green-photo-4">
+      <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
+    </div>
+    <div class="green-photo green-photo-5">
       <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse">
     </div>
-    <div class="green-photo green-photo-9">
+  </div>
+  <div class="green-scrapbook-row">
+    <div class="green-photo green-photo-6">
       <img src="/images/green/farm.jpg" alt="GREEN farm visit">
+    </div>
+    <div class="green-photo green-photo-7">
+      <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
+    </div>
+    <div class="green-photo green-photo-8">
+      <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
+    </div>
+    <div class="green-photo green-photo-9">
+      <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
     </div>
     <div class="green-photo green-photo-10">
       <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference">

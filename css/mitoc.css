@@ -449,43 +449,69 @@ body {
   object-fit: cover;
 }
 
-.green-photo-1 { transform: rotate(-2.3deg); }
-.green-photo-1 img { width: 200px; height: 265px; }
+.green-photo-1  { transform: rotate(-2.3deg); }
+.green-photo-1  img { width: 168px; height: 220px; }
 
-.green-photo-2 { transform: rotate(1.8deg); margin-top: 30px; }
-.green-photo-2 img { width: 258px; height: 196px; }
+.green-photo-2  { transform: rotate(1.8deg); margin-top: 24px; }
+.green-photo-2  img { width: 175px; height: 155px; }
 
-.green-photo-3 { transform: rotate(-1.2deg); margin-top: -18px; }
-.green-photo-3 img { width: 228px; height: 228px; }
+.green-photo-3  { transform: rotate(-1.2deg); margin-top: -14px; }
+.green-photo-3  img { width: 168px; height: 200px; }
 
-.green-photo-4 { transform: rotate(3.1deg); }
-.green-photo-4 img { width: 242px; height: 242px; }
+.green-photo-4  { transform: rotate(3.1deg); }
+.green-photo-4  img { width: 175px; height: 175px; }
 
-.green-photo-5 { transform: rotate(-1.7deg); margin-top: 20px; }
-.green-photo-5 img { width: 265px; height: 196px; }
+.green-photo-5  { transform: rotate(-1.7deg); margin-top: 18px; }
+.green-photo-5  img { width: 168px; height: 155px; }
 
-.green-photo-6 { transform: rotate(2.4deg); margin-top: -10px; }
-.green-photo-6 img { width: 210px; height: 265px; }
+.green-photo-6  { transform: rotate(2.4deg); margin-top: -10px; }
+.green-photo-6  img { width: 175px; height: 155px; }
 
-.green-photo-7 { transform: rotate(-2.1deg); }
-.green-photo-7 img { width: 230px; height: 180px; }
+.green-photo-7  { transform: rotate(-2.1deg); }
+.green-photo-7  img { width: 175px; height: 130px; }
 
-.green-photo-8 { transform: rotate(1.3deg); margin-top: 18px; }
-.green-photo-8 img { width: 200px; height: 240px; }
+.green-photo-8  { transform: rotate(1.3deg); margin-top: 16px; }
+.green-photo-8  img { width: 168px; height: 195px; }
 
-.green-photo-9 { transform: rotate(-0.9deg); margin-top: -12px; }
-.green-photo-9 img { width: 200px; height: 240px; }
+.green-photo-9  { transform: rotate(-0.9deg); margin-top: -10px; }
+.green-photo-9  img { width: 168px; height: 195px; }
 
 .green-photo-10 { transform: rotate(2.8deg); }
-.green-photo-10 img { width: 230px; height: 180px; }
+.green-photo-10 img { width: 175px; height: 145px; }
 
 @media (max-width: 991px) {
-  .green-scrapbook {
-    display: none !important;
-  }
   .green-hero {
     display: none !important;
   }
+  /* Mobile scrapbook: 2-col polaroid grid */
+  .green-scrapbook {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 20px 0 32px;
+  }
+  .green-scrapbook-row {
+    display: contents;
+  }
+  .green-photo {
+    flex: 0 0 calc(50% - 7px);
+    padding: 7px 7px 24px 7px;
+    margin-top: 0 !important;
+  }
+  .green-photo img {
+    width: 100% !important;
+    height: 130px !important;
+  }
+  .green-photo-1  { transform: rotate(-1.5deg); }
+  .green-photo-2  { transform: rotate(1deg); }
+  .green-photo-3  { transform: rotate(-0.8deg); }
+  .green-photo-4  { transform: rotate(2deg); }
+  .green-photo-5  { transform: rotate(-1.2deg); }
+  .green-photo-6  { transform: rotate(1.8deg); }
+  .green-photo-7  { transform: rotate(-0.6deg); }
+  .green-photo-8  { transform: rotate(2.3deg); }
+  .green-photo-9  { transform: rotate(-1.9deg); }
+  .green-photo-10 { transform: rotate(0.9deg); }
 }
 
 @media (max-width: 767px) {
