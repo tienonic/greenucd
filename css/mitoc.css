@@ -303,7 +303,7 @@ body {
   position: relative;
   height: 440px;
   overflow: hidden;
-  margin: -20px -30px 36px -30px;
+  margin: -20px -30px 28px -30px;
   width: calc(100% + 60px);
 }
 
@@ -508,6 +508,12 @@ body {
     height: 130px !important;
     object-fit: cover;
   }
+}
+
+.green-main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 767px) {
