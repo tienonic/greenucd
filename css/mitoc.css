@@ -540,7 +540,7 @@ body {
 }
 .page-header h1 {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #1a1a1a;
 }
@@ -548,7 +548,7 @@ body {
 /* All content pages (anything with a page title — not the homepage) */
 #main:has(.page-header) h2 {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: #1a1a1a;
   margin-top: 36px;
@@ -556,7 +556,7 @@ body {
 }
 #main:has(.page-header) h3 {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: #1a7a2e;
   border-bottom: 1px solid #d4d4cc;
@@ -566,24 +566,24 @@ body {
 }
 #main:has(.page-header) p,
 #main:has(.page-header) li {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 1.8;
   color: #2a2a2a;
 }
 #main:has(.page-header) dt {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-top: 12px;
   color: #1a1a1a;
 }
 #main:has(.page-header) dd {
-  font-size: 1.08rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #555;
   margin-bottom: 10px;
 }
 #main:has(.page-header) .lead {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color: #444;
 }
