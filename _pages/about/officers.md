@@ -36,3 +36,5 @@ Interested in joining the board? Reach out to us at [greenucd@gmail.com](mailto:
 For general questions about GREEN, email [greenucd@gmail.com](mailto:greenucd@gmail.com).
 
 Follow us on [Instagram @green.ucd](https://www.instagram.com/green.ucd/) or join our [Discord](https://discord.com/invite/5krgBsWp3r).
+
+*For website inquiry email [think@ucdavis.edu](mailto:think@ucdavis.edu)*

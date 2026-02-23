@@ -7,24 +7,21 @@ A convenient directory of campus agricultural technology resources — email lis
 
 ## Mailing Lists
 
-Email lists are the best way to stay connected with events and conversations happening in AgTech around campus. On these lists, you can find conference buddies, ask questions about AgTech, and learn about upcoming department events!
+Email lists are a great way to stay connected with AgTech events and conversations happening around campus. On these lists, you can learn about upcoming department events, ask questions about AgTech, and find conference buddies!
 
 <div class="green-info-box" markdown="1">
-UC Davis uses **Sympa** to manage campus email lists. To subscribe, send an email to [sympa@ucdavis.edu](mailto:sympa@ucdavis.edu) with the following in the message body:
+UC Davis uses **Sympa** to manage campus email lists. To subscribe, compose an email with these fields:
 
-```
-subscribe listname Your First Name Your Last Name
-```
+- **To:** [sympa@ucdavis.edu](mailto:sympa@ucdavis.edu)
+- **Subject:** *(leave blank)*
+- **Body:**
+  ```
+  subscribe listname Your First Name Your Last Name
+  ```
 
-Replace `listname` with the name of the list (e.g. `veninfo`). Leave the subject line blank and do not include a signature.
+Replace `listname` with the name of the list (e.g. `vendevo`). Do not include a signature.
 
-**Example:**
-
-```
-To: sympa@ucdavis.edu
-Subject:
-Body: subscribe veninfo Joe Wineo
-```
+**After sending, you will receive a confirmation email from SYMPA.** Simply reply to it to complete your subscription.
 
 For more information see the [UC Davis Electronic Mailing Lists guide](https://wineserver.ucdavis.edu/academic-programs/student-resources/student-computing/electronic-mailing-lists).
 </div>
@@ -64,4 +61,6 @@ For more information see the [UC Davis Electronic Mailing Lists guide](https://w
 
 ## Questions?
 
-Email us at [greenucd@gmail.com](mailto:greenucd@gmail.com).
+For general org inquiry, email us at [greenucd@gmail.com](mailto:greenucd@gmail.com).
+
+*For website inquiry email [think@ucdavis.edu](mailto:think@ucdavis.edu)*

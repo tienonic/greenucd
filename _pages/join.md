@@ -6,13 +6,11 @@
 
 ### 1. Follow us on social media
 
-Stay up to date with events and announcements by following us on [Instagram @green.ucd](https://www.instagram.com/green.ucd/) and joining our [Discord server](https://discord.com/invite/5krgBsWp3r).
+Stay up to date with events and announcements by following us on [instagram @green.ucd](https://www.instagram.com/green.ucd/) and joining our [discord server](https://discord.com/invite/5krgBsWp3r).
 
 ### 2. Fill out our interest form
 
-Let us know you're interested and we'll keep you in the loop on upcoming events, workshops, and projects.
-
-**[Join Us](https://docs.google.com/forms/d/e/1FAIpQLScrcE9ti-PTqw0fUoqXD2byau2iLwoi_BWdDMK-fR5iB7wEAg/viewform)**
+Let us know you're interested [with this form](https://docs.google.com/forms/d/e/1FAIpQLScrcE9ti-PTqw0fUoqXD2byau2iLwoi_BWdDMK-fR5iB7wEAg/viewform) and we'll keep you in the loop on upcoming events, workshops, and projects.
 
 ### 3. Show up!
 
