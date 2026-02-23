@@ -1,16 +1,21 @@
 ---
 KrishnaAggarwal:
   name: "Krishna Aggarwal"
+  photo: "krishna.jpg"
   bio: "I'm an Agricultural Technology major at UC Davis with hands-on experience in IoT, GIS, and smart farming systems."
 GavinZaengle:
   name: "Gavin Zaengle"
+  photo: "gavin.jpg"
   bio: "LUX Team @ LA Chargers | Managerial Economics major @ UC Davis"
 ArluyaSisomvang:
   name: "Arlunya Sisomvang"
+  photo: "arlyuna.jpg"
   bio: "Agriculture & Environmental Technology Student at UC Davis"
 KaitlynTowse:
   name: "Kaitlyn Towse"
+  photo: "kaitlyn.jpg"
   bio: "Agriculture & Environmental Technology Student at UC Davis"
 NicholasMelnichenko:
   name: "Nicholas Melnichenko"
+  photo: "nicholas.jpg"
   bio: "I am an Agtech major interested in agricultural systems innovation, especially precision agriculture. I have had a longtime interest in food, production efficiency, and agricultural policy."
