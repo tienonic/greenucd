@@ -1,6 +1,6 @@
 ---
     permalink: /get-involved/getting-more-involved
-    title: Getting More Involved
+    title: Getting more involved
 ---
 
 How can I get more involved in GREEN?

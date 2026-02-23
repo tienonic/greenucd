@@ -1,22 +1,22 @@
-- title: Get Involved
+- title: Get involved
   items:
-    - title: As a Participant
+    - title: As a participant
       items:
-        - title: Initiative Directory
+        - title: Initiative directory
           href: /mailing-lists
-        - title: Become a Member
+        - title: Become a member
           href: /join
         - title: Calendar
           href: /calendar
-    - title: As a Leader
+    - title: As a leader
       items:
-        - title: Getting More Involved
+        - title: Getting more involved
           href: /get-involved/getting-more-involved
 - title: About
   items:
     - title: About GREEN
       href: "#about"
-    - title: Submit Photos to GREEN
+    - title: Submit photos to GREEN
       href: "https://docs.google.com/forms/d/e/1FAIpQLSfNgEubSImZLmMhQfOLD1P8DpgSzBjaji5xbQmujQqLHSX4Ug/viewform?usp=publish-editor"
     - title: Connect
       items:
@@ -28,5 +28,5 @@
           href: "https://substack.com/@greeninnovationnetwork"
 - title: Board
   href: /about/officers
-- title: Join Us
+- title: Join us
   href: "https://docs.google.com/forms/d/e/1FAIpQLScrcE9ti-PTqw0fUoqXD2byau2iLwoi_BWdDMK-fR5iB7wEAg/viewform"

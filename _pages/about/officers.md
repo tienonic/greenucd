@@ -1,6 +1,6 @@
 ---
     permalink: /about/officers
-    title: Club Officers
+    title: Club officers
 ---
 
 ## Meet the Board

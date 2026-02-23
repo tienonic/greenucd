@@ -1,6 +1,6 @@
 ---
     permalink: /mailing-lists
-    title: Initiative Directory
+    title: Initiative directory
 ---
 
 A convenient directory of campus agricultural technology resources — email lists to subscribe to, organizations to follow, and initiatives worth knowing about.
