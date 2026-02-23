@@ -359,6 +359,19 @@ body {
   color: #2a2a2a;
 }
 
+/* Calendar column — bleeds right past the hero on desktop */
+@media (min-width: 992px) {
+  .green-main .col-md-5 iframe {
+    display: block;
+    width: calc(100% + 50px);
+  }
+}
+@media (max-width: 991px) {
+  .green-main .col-md-5 iframe {
+    height: 480px;
+  }
+}
+
 /* Events list */
 .green-events-list {
   list-style: none;
