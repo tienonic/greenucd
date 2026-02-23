@@ -504,6 +504,9 @@ body {
   .green-main .col-md-5 {
     width: 100%;
   }
+  .green-main .col-md-7 {
+    margin-bottom: 1rem;
+  }
   /* Mobile scrapbook: plain 2-col image grid, no polaroid */
   .green-scrapbook {
     gap: 6px;
