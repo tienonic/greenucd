@@ -487,30 +487,27 @@ body {
   .green-hero {
     display: none !important;
   }
-  /* Mobile scrapbook: 2-col polaroid grid */
+  /* Mobile scrapbook: plain 2-col image grid, no polaroid */
   .green-scrapbook {
-    gap: 14px;
-    padding: 20px 0 32px;
+    gap: 6px;
+    padding: 12px 0 24px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
   .green-photo {
-    flex: 0 0 calc(50% - 7px);
-    padding: 7px 7px 24px 7px;
+    flex: 0 0 calc(50% - 3px);
+    padding: 0;
     margin-top: 0 !important;
+    background: none;
+    box-shadow: none;
+    transform: none !important;
   }
   .green-photo img {
     width: 100% !important;
     height: 130px !important;
+    object-fit: cover;
   }
-  .green-photo-1  { transform: rotate(-1.5deg); }
-  .green-photo-2  { transform: rotate(1deg); }
-  .green-photo-3  { transform: rotate(-0.8deg); }
-  .green-photo-4  { transform: rotate(2deg); }
-  .green-photo-5  { transform: rotate(-1.2deg); }
-  .green-photo-6  { transform: rotate(1.8deg); }
-  .green-photo-7  { transform: rotate(-0.6deg); }
-  .green-photo-8  { transform: rotate(2.3deg); }
-  .green-photo-9  { transform: rotate(-1.9deg); }
-  .green-photo-10 { transform: rotate(0.9deg); }
 }
 
 @media (max-width: 767px) {
