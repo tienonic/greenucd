@@ -529,11 +529,16 @@ body {
 }
 
 /* Board member cards */
+.officer-row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
 .officer-card {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+  flex: 1;
   padding: 0 8px;
+  margin-bottom: 40px;
 }
 .officer-info {
   display: flex;
@@ -559,6 +564,9 @@ body {
 #main p small {
   line-height: 1.4;
   display: block;
+}
+.officer-card p small {
+  padding-right: 8px;
 }
 
 /* Info box */

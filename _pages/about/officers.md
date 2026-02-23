@@ -1,6 +1,6 @@
 ---
     permalink: /about/officers
-    title: Club Officers
+    title: GREEN Officers
 ---
 
 ## Meet the Board
@@ -13,12 +13,12 @@ Interested in joining the board? Reach out to us at [greenucd@gmail.com](mailto:
 <div>
   {% for category in site.data.positions %}
     <h3>{{ category.title }}</h3>
-    <div class="row is-flex">
+    <div class="row is-flex officer-row">
       {% for position in category.positions %}
         {% for officer_id in position.officers %}
           {% assign officer = site.data.officers[officer_id] %}
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 officer-card">
-            <img height="115" width="115" alt="" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
+            <img height="112" width="112" alt="" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
             <div class="officer-info">
               <strong class="officer-name">{{ officer.name }}</strong>
               <span class="officer-title">{{ position.title }}</span>
