@@ -543,8 +543,8 @@ body {
   color: #1a1a1a;
 }
 
-/* Section headings */
-#main h2 {
+/* Section headings — exclude homepage section title class */
+#main h2:not(.green-section-title) {
   font-family: 'JetBrains Mono', monospace;
   font-size: 1.5rem;
   font-weight: 700;
@@ -552,7 +552,7 @@ body {
   margin-top: 36px;
   margin-bottom: 14px;
 }
-#main h3 {
+#main h3:not(.green-section-title) {
   font-family: 'JetBrains Mono', monospace;
   font-size: 1.15rem;
   font-weight: 700;
