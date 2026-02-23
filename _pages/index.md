@@ -58,4 +58,18 @@ layout: default
       <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
     </div>
   </div>
+  <div class="green-scrapbook-row">
+    <div class="green-photo green-photo-7">
+      <img src="/images/green/vineyard.png" alt="GREEN members at vineyard">
+    </div>
+    <div class="green-photo green-photo-8">
+      <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse">
+    </div>
+    <div class="green-photo green-photo-9">
+      <img src="/images/green/farm.jpg" alt="GREEN farm visit">
+    </div>
+    <div class="green-photo green-photo-10">
+      <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference">
+    </div>
+  </div>
 </div>

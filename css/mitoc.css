@@ -467,6 +467,18 @@ body {
 .green-photo-6 { transform: rotate(2.4deg); margin-top: -10px; }
 .green-photo-6 img { width: 210px; height: 265px; }
 
+.green-photo-7 { transform: rotate(-2.1deg); }
+.green-photo-7 img { width: 230px; height: 180px; }
+
+.green-photo-8 { transform: rotate(1.3deg); margin-top: 18px; }
+.green-photo-8 img { width: 200px; height: 240px; }
+
+.green-photo-9 { transform: rotate(-0.9deg); margin-top: -12px; }
+.green-photo-9 img { width: 200px; height: 240px; }
+
+.green-photo-10 { transform: rotate(2.8deg); }
+.green-photo-10 img { width: 230px; height: 180px; }
+
 @media (max-width: 991px) {
   .green-scrapbook {
     display: none !important;
