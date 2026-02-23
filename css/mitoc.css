@@ -418,7 +418,7 @@ body {
 .green-scrapbook {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 18px;
   justify-content: center;
   align-items: flex-start;
   padding: 20px 0 44px;
@@ -448,35 +448,37 @@ body {
   object-fit: cover;
 }
 
+.green-photo { flex-shrink: 1; }
+
 .green-photo-1  { transform: rotate(-2.3deg); }
-.green-photo-1  img { width: 168px; height: 220px; }
+.green-photo-1  img { width: 158px; height: 210px; }
 
-.green-photo-2  { transform: rotate(1.8deg); margin-top: 24px; }
-.green-photo-2  img { width: 175px; height: 155px; }
+.green-photo-2  { transform: rotate(1.8deg); margin-top: 22px; }
+.green-photo-2  img { width: 158px; height: 148px; }
 
-.green-photo-3  { transform: rotate(-1.2deg); margin-top: -14px; }
-.green-photo-3  img { width: 168px; height: 200px; }
+.green-photo-3  { transform: rotate(-1.2deg); margin-top: -12px; }
+.green-photo-3  img { width: 158px; height: 190px; }
 
 .green-photo-4  { transform: rotate(3.1deg); }
-.green-photo-4  img { width: 175px; height: 175px; }
+.green-photo-4  img { width: 158px; height: 165px; }
 
-.green-photo-5  { transform: rotate(-1.7deg); margin-top: 18px; }
-.green-photo-5  img { width: 168px; height: 155px; }
+.green-photo-5  { transform: rotate(-1.7deg); margin-top: 16px; }
+.green-photo-5  img { width: 158px; height: 148px; }
 
-.green-photo-6  { transform: rotate(2.4deg); margin-top: -10px; }
-.green-photo-6  img { width: 175px; height: 155px; }
+.green-photo-6  { transform: rotate(2.4deg); margin-top: -8px; }
+.green-photo-6  img { width: 158px; height: 148px; }
 
 .green-photo-7  { transform: rotate(-2.1deg); }
-.green-photo-7  img { width: 175px; height: 130px; }
+.green-photo-7  img { width: 158px; height: 125px; }
 
-.green-photo-8  { transform: rotate(1.3deg); margin-top: 16px; }
-.green-photo-8  img { width: 168px; height: 195px; }
+.green-photo-8  { transform: rotate(1.3deg); margin-top: 14px; }
+.green-photo-8  img { width: 158px; height: 185px; }
 
-.green-photo-9  { transform: rotate(-0.9deg); margin-top: -10px; }
-.green-photo-9  img { width: 168px; height: 195px; }
+.green-photo-9  { transform: rotate(-0.9deg); margin-top: -8px; }
+.green-photo-9  img { width: 158px; height: 185px; }
 
 .green-photo-10 { transform: rotate(2.8deg); }
-.green-photo-10 img { width: 175px; height: 145px; }
+.green-photo-10 img { width: 158px; height: 138px; }
 
 @media (max-width: 991px) {
   .green-hero {
