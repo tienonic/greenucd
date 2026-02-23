@@ -4,6 +4,8 @@ This repository contains the source code of https://carrotcore.com.
 
 GREEN (Green Innovation Network) is a student-led AgTech organization at UC Davis focused on sustainable agriculture, renewable energy, and environmental technology.
 
+Built with inspiration from the [MITOC website](https://github.com/mitoc/website).
+
 All members of the GREEN community are welcome to suggest edits by opening pull requests!
 
 If you'd like to change anything on the website, you can:
