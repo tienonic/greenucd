@@ -18,7 +18,7 @@ layout: default
   <img src="/images/green/soldering-group.png" alt="GREEN members soldering" class="green-hero-img">
   <div class="green-hero-text">
     <h1>Build. Grow.<br>Sustain.</h1>
-    <p class="green-hero-sub">AgTech engineering at UC Davis</p>
+    <p class="green-hero-sub">Agricultural Technology at UC Davis</p>
   </div>
 </div>
 
