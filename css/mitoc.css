@@ -417,17 +417,16 @@ body {
 /* Scrapbook gallery */
 .green-scrapbook {
   display: flex;
-  flex-direction: column;
-  gap: 28px;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: flex-start;
   padding: 20px 0 44px;
 }
 
+/* Row divs are invisible to flex — photos reflow naturally */
 .green-scrapbook-row {
-  display: flex;
-  gap: 28px;
-  justify-content: center;
-  align-items: flex-start;
+  display: contents;
 }
 
 .green-photo {
@@ -485,13 +484,8 @@ body {
   }
   /* Mobile scrapbook: 2-col polaroid grid */
   .green-scrapbook {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 14px;
     padding: 20px 0 32px;
-  }
-  .green-scrapbook-row {
-    display: contents;
   }
   .green-photo {
     flex: 0 0 calc(50% - 7px);
