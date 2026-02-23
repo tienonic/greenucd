@@ -418,7 +418,7 @@ body {
 .green-scrapbook {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 20px 24px;
   justify-content: center;
   align-items: flex-start;
   padding: 20px 0 44px;
