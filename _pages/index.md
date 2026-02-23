@@ -27,7 +27,6 @@ layout: default
     <h2 class="green-section-title hidden-xs hidden-sm">// about</h2>
     <p><strong>GREEN (Green Innovation Network)</strong> is a student-led AgTech organization at UC Davis passionate about tackling environmental and agricultural technology challenges through collaboration, hands-on projects, and cutting-edge research.</p>
     <p>We organize workshops, speaker series, and projects focused on sustainable agriculture, renewable energy, and environmental conservation. Join UC Davis's premier green tech club to connect, create, and drive change toward a greener future.</p>
-    <p>If you're new to GREEN, you should start by following our <a href="https://www.instagram.com/green.ucd/">instagram</a>, which is used to announce club events. Our <a href="/calendar">calendar</a> and <a href="/mailing-lists">initiative directory</a> are also good places to find upcoming AgTech occasions.</p>
   </div>
   <div class="col-md-5">
     <h2 class="green-section-title hidden-xs hidden-sm">// calendar</h2>

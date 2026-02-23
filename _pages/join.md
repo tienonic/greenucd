@@ -1,6 +1,6 @@
 ---
     permalink: /join
-    title: Become a member
+    title: Become a Member
     subtitle: Anyone at UC Davis can join GREEN — it's free and open to all.
 ---
 
