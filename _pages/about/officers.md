@@ -17,10 +17,12 @@ Interested in joining the board? Reach out to us at [think@ucdavis.edu](mailto:t
       {% for position in category.positions %}
         {% for officer_id in position.officers %}
           {% assign officer = site.data.officers[officer_id] %}
-          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 officer-card">
             <img height="100" width="100" alt="" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
-            <em>{{ officer.name }}<br/>
-            {{ position.title }}</em>
+            <div class="officer-info">
+              <strong class="officer-name">{{ officer.name }}</strong>
+              <span class="officer-title">{{ position.title }}</span>
+            </div>
             {% if officer.bio %}<p><small>{{ officer.bio }}</small></p>{% endif %}
           </div>
         {% endfor %}
