@@ -434,7 +434,7 @@ body {
   gap: 20px 24px;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px 0 44px;
+  padding: 60px 0 44px;
   margin-left: -60px;
   margin-right: -60px;
   width: calc(100% + 120px);
@@ -499,6 +499,10 @@ body {
 @media (max-width: 991px) {
   .green-hero {
     display: none !important;
+  }
+  .green-main .col-md-7,
+  .green-main .col-md-5 {
+    width: 100%;
   }
   /* Mobile scrapbook: plain 2-col image grid, no polaroid */
   .green-scrapbook {
