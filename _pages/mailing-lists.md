@@ -9,6 +9,7 @@ A convenient directory of campus agricultural technology resources — email lis
 
 Email lists are the best way to stay connected with events and conversations happening in AgTech around campus. On these lists, you can find conference buddies, ask questions about AgTech, and learn about upcoming department events!
 
+<div class="green-info-box" markdown="1">
 UC Davis uses **Sympa** to manage campus email lists. To subscribe, send an email to [sympa@ucdavis.edu](mailto:sympa@ucdavis.edu) with the following in the message body:
 
 ```
@@ -26,8 +27,9 @@ Body: subscribe veninfo Joe Wineo
 ```
 
 For more information see the [UC Davis Electronic Mailing Lists guide](https://wineserver.ucdavis.edu/academic-programs/student-resources/student-computing/electronic-mailing-lists).
+</div>
 
-### Agricultural Technology on Campus
+### Agricultural Technology Sympa Lists
 
 **[AET Undergrad](https://lists.ucdavis.edu/sympa/info/aetundergrad)**
 : Agricultural & Environmental Technology undergraduate list

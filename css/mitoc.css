@@ -521,6 +521,21 @@ body {
   max-width: 820px;
 }
 
+/* Info box */
+.green-info-box {
+  background: #fff;
+  border: 1px solid #d4d4cc;
+  border-left: 4px solid #1a7a2e;
+  border-radius: 4px;
+  padding: 20px 24px;
+  margin: 20px 0 28px;
+}
+.green-info-box pre,
+.green-info-box code {
+  background: #f4f4f0;
+  border-radius: 3px;
+}
+
 /* ===== Content page consistency ===== */
 
 /* Green links throughout */
