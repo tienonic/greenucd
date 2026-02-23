@@ -417,10 +417,17 @@ body {
 /* Scrapbook gallery */
 .green-scrapbook {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  padding: 20px 0 44px;
+}
+
+.green-scrapbook-row {
+  display: flex;
   gap: 28px;
   justify-content: center;
-  padding: 20px 0 44px;
+  align-items: flex-start;
 }
 
 .green-photo {

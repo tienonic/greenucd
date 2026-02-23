@@ -36,22 +36,26 @@ layout: default
 
 <!-- Desktop: scrapbook gallery -->
 <div class="green-scrapbook hidden-xs hidden-sm">
-  <div class="green-photo green-photo-1">
-    <img src="/images/green/soldering.png" alt="GREEN soldering">
+  <div class="green-scrapbook-row">
+    <div class="green-photo green-photo-1">
+      <img src="/images/green/soldering.png" alt="GREEN soldering">
+    </div>
+    <div class="green-photo green-photo-2">
+      <img src="/images/green/booth.png" alt="GREEN at the Picnic Day booth">
+    </div>
+    <div class="green-photo green-photo-3">
+      <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
+    </div>
   </div>
-  <div class="green-photo green-photo-2">
-    <img src="/images/green/booth.png" alt="GREEN at the Picnic Day booth">
-  </div>
-  <div class="green-photo green-photo-3">
-    <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
-  </div>
-  <div class="green-photo green-photo-4">
-    <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
-  </div>
-  <div class="green-photo green-photo-5">
-    <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
-  </div>
-  <div class="green-photo green-photo-6">
-    <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
+  <div class="green-scrapbook-row">
+    <div class="green-photo green-photo-4">
+      <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
+    </div>
+    <div class="green-photo green-photo-5">
+      <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
+    </div>
+    <div class="green-photo green-photo-6">
+      <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
+    </div>
   </div>
 </div>
