@@ -356,7 +356,7 @@ body {
 @media (min-width: 992px) {
   .green-about {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 8px;
   }
 }
 
