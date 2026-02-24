@@ -4,10 +4,7 @@
 title: GREEN - UCD
 url: https://carrotcore.com
 
-include: ['_pages', '_redirects']
-
-plugins:
-  - jekyll-target-blank
+include: ['_pages']
 
 exclude:
   - README.md
