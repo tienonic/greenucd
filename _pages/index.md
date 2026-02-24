@@ -29,7 +29,7 @@ layout: default
     <p>If you're new to GREEN, you should start by following our <a href="https://www.instagram.com/green.ucd/">instagram</a>, which is used to announce club events. Our <a href="/calendar">calendar</a> and <a href="/mailing-lists">initiative directory</a> are also good places to find upcoming AgTech occasions.</p>
   </div>
   <div class="col-md-5">
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=400&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" style="border:0;" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showPrint=0&showCalendars=0&mode=AGENDA&height=400&wkst=1&bgcolor=%23FFFFFF&src=61d8f01d5d00cb5bd304badc76c060acfa87badf0c68b180d1a0b78150cc9b2c%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles" title="GREEN Events Calendar" style="border:0;" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
   </div>
 </div>
 
