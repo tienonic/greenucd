@@ -353,6 +353,12 @@ body {
 }
 
 /* About column */
+@media (min-width: 992px) {
+  .green-about {
+    padding-left: 0;
+  }
+}
+
 .green-about p {
   font-size: 1.25rem;
   line-height: 1.75;
@@ -361,13 +367,13 @@ body {
 
 /* Calendar column — bleeds right past the hero on desktop */
 @media (min-width: 992px) {
-  .green-main .col-md-4 iframe {
+  .green-main .col-md-5 iframe {
     display: block;
     width: calc(100% + 50px);
   }
 }
 @media (max-width: 991px) {
-  .green-main .col-md-4 iframe {
+  .green-main .col-md-5 iframe {
     height: 480px;
   }
 }
@@ -500,11 +506,11 @@ body {
   .green-hero {
     display: none !important;
   }
-  .green-main .col-md-8,
-  .green-main .col-md-4 {
+  .green-main .col-md-7,
+  .green-main .col-md-5 {
     width: 100%;
   }
-  .green-main .col-md-8 {
+  .green-main .col-md-7 {
     margin-bottom: 1rem;
   }
   /* Mobile scrapbook: plain 2-col image grid, no polaroid */
