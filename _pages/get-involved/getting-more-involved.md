@@ -17,12 +17,12 @@ We are always looking for passionate members to help lead workshops, projects, a
 - Do you want to get a crew together for a field trip or hands-on project?
 - Do you have a green tech event idea you want to see happen?
 
-You are in the right place! We are always looking for members to facilitate events or create new ones. GREEN events can be anything from campus sustainability initiatives to AgTech demos to networking mixers. Dream up your idea, let us know at [greenucd@gmail.com](mailto:greenucd@gmail.com), and we can help you make it happen.
+You are in the right place! We are always looking for members to facilitate events or create new ones. GREEN events can be anything from campus sustainability initiatives to AgTech demos to networking mixers. Dream up your idea, let us know at [kragg@ucdavis.edu](mailto:kragg@ucdavis.edu), and we can help you make it happen.
 
 ### Join the Board!
 
 Do you want to give back to the GREEN community beyond attending events? Come join the members who keep GREEN running! The Board of Directors is a group of students and volunteers who all care deeply about advancing agricultural technology and sustainability at UC Davis.
 
-We welcome new board members at any time. Keep an eye on our [Discord](https://discord.com/invite/5krgBsWp3r) and [Instagram](https://www.instagram.com/green.ucd/) for announcements. If you have a specific idea you want to spearhead, email [greenucd@gmail.com](mailto:greenucd@gmail.com).
+We welcome new board members at any time. Keep an eye on our [Discord](https://discord.com/invite/5krgBsWp3r) and [Instagram](https://www.instagram.com/green.ucd/) for announcements. If you have a specific idea you want to spearhead, email [kragg@ucdavis.edu](mailto:kragg@ucdavis.edu).
 
 You can check out the current board on the [Club Officers](/about/officers) page.
