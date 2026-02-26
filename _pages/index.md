@@ -6,16 +6,16 @@ layout: default
 <!-- Mobile: original 4-image row -->
 <div class="hidden-md hidden-lg" style="margin: 10px 0 20px;">
   <div style="display:flex; justify-content:space-between;">
-    <img src="/images/green/booth.png" alt="GREEN booth" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
-    <img src="/images/green/meeting.png" alt="GREEN meeting" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
-    <img src="/images/green/soldering-group.png" alt="GREEN soldering workshop" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
-    <img src="/images/green/soldering.png" alt="GREEN soldering" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/booth.jpg" alt="GREEN booth" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/meeting.jpg" alt="GREEN meeting" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/soldering-group.jpg" alt="GREEN soldering workshop" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
+    <img src="/images/green/soldering.jpg" alt="GREEN soldering" style="width:23%; aspect-ratio:3/4; object-fit:cover;">
   </div>
 </div>
 
 <!-- Desktop: hero -->
 <div class="green-hero hidden-xs hidden-sm">
-  <img src="/images/green/soldering-group.png" alt="GREEN members soldering" class="green-hero-img">
+  <img src="/images/green/soldering-group.jpg" alt="GREEN members soldering" class="green-hero-img">
   <div class="green-hero-text">
     <h1>Build. Grow.<br>Sustain.</h1>
     <p class="green-hero-sub">Agricultural Technology at UC Davis</p>
@@ -37,36 +37,36 @@ layout: default
 <div class="green-scrapbook">
   <div class="green-scrapbook-row">
     <div class="green-photo green-photo-1">
-      <img src="/images/green/vineyard.png" alt="GREEN members at vineyard">
+      <img src="/images/green/vineyard.jpg" alt="GREEN members at vineyard" loading="lazy">
     </div>
     <div class="green-photo green-photo-2">
-      <img src="/images/green/soldering.png" alt="GREEN soldering">
+      <img src="/images/green/soldering.jpg" alt="GREEN soldering" loading="lazy">
     </div>
     <div class="green-photo green-photo-3">
-      <img src="/images/green/booth.png" alt="GREEN at the Picnic Day booth">
+      <img src="/images/green/booth.jpg" alt="GREEN at the Picnic Day booth" loading="lazy">
     </div>
     <div class="green-photo green-photo-4">
-      <img src="/images/green/meeting.png" alt="GREEN weekly meeting">
+      <img src="/images/green/meeting.jpg" alt="GREEN weekly meeting" loading="lazy">
     </div>
     <div class="green-photo green-photo-5">
-      <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse">
+      <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse" loading="lazy">
     </div>
   </div>
   <div class="green-scrapbook-row">
     <div class="green-photo green-photo-6">
-      <img src="/images/green/farm.jpg" alt="GREEN farm visit">
+      <img src="/images/green/farm.jpg" alt="GREEN farm visit" loading="lazy">
     </div>
     <div class="green-photo green-photo-7">
-      <img src="/images/green/sperra-event.png" alt="GREEN Sperra speaker event">
+      <img src="/images/green/sperra-event.jpg" alt="GREEN Sperra speaker event" loading="lazy">
     </div>
     <div class="green-photo green-photo-8">
-      <img src="/images/green/speaker-series.png" alt="GREEN speaker series">
+      <img src="/images/green/speaker-series.jpg" alt="GREEN speaker series" loading="lazy">
     </div>
     <div class="green-photo green-photo-9">
-      <img src="/images/green/soldering-closeup.png" alt="GREEN soldering closeup">
+      <img src="/images/green/soldering-closeup.jpg" alt="GREEN soldering closeup" loading="lazy">
     </div>
     <div class="green-photo green-photo-10">
-      <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference">
+      <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference" loading="lazy">
     </div>
   </div>
 </div>

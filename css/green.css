@@ -14,11 +14,6 @@ body {
   padding-right: 30px;
 }
 
-/* Square Bootstrap responsive embed for agenda widgets */
-.embed-responsive-square {
-  padding-bottom: 100%;
-}
-
 /* Make columns the same height */
 .row.is-flex {
   display: -webkit-box;
@@ -48,22 +43,12 @@ body {
   margin-bottom: 20px;
 }
 
-.jumbotron p {
-  margin-bottom: 0;
-}
-
 dd {
   margin-bottom: 1em;
 }
 
 p img {
   width: 100%;
-}
-
-.cbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .navbar {
@@ -175,19 +160,6 @@ body {
   margin: 0;
 }
 
-/* Section titles */
-.green-section-title {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #1a7a2e;
-  letter-spacing: 0.1em;
-  border-bottom: 1px solid #d4d4cc;
-  padding-bottom: 8px;
-  margin-bottom: 18px;
-  margin-top: 0;
-}
-
 /* About column */
 @media (min-width: 992px) {
   .green-about {
@@ -213,61 +185,6 @@ body {
   .green-main .col-md-5 iframe {
     height: 480px;
   }
-}
-
-/* Events list */
-.green-events-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 16px 0;
-}
-
-.green-events-list li {
-  display: flex;
-  gap: 14px;
-  padding: 10px 0;
-  border-bottom: 1px solid #e4e4de;
-  font-size: 0.91rem;
-  align-items: baseline;
-}
-
-.event-date {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #1a7a2e;
-  min-width: 50px;
-  flex-shrink: 0;
-}
-
-.event-title {
-  color: #2a2a2a;
-  line-height: 1.4;
-}
-
-.green-cal-link {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.78rem;
-  color: #1a7a2e;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 4px;
-}
-
-.green-cal-link:hover {
-  text-decoration: underline;
-  color: #1a7a2e;
-}
-
-.green-cal-label {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.78rem;
-  color: #1a7a2e;
-  margin: 8px 0 6px 0;
-}
-
-.green-cal-section {
-  margin-bottom: 36px;
 }
 
 /* Scrapbook gallery — bleeds outside the container on both sides */
@@ -430,11 +347,6 @@ body {
   text-transform: lowercase;
   letter-spacing: 0.04em;
   white-space: nowrap;
-}
-#main small,
-#main p small {
-  line-height: 1.4;
-  display: block;
 }
 .officer-card p small {
   padding-right: 8px;
