@@ -52,18 +52,18 @@ This <span style="color:red;">word</span> is red.
 Or to apply a specific style to a block:
 
 ```HTML
-<div class="well" markdown="1">
+<div class="green-info-box" markdown="1">
 
-#### Can I reserve gear ahead of time?
+#### Important note
 
-No. All gear is first come, first served.
+This content will be displayed in a styled box.
 
 </div>
 ```
 
 > Note the use of `markdown="1"`: this is necessary to render the Markdown located in the tag.
 
-The styled class `well`, as well as many others, are brought by [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/).
+Available styled classes like `green-info-box` are defined in [`css/green.css`](/css/green.css).
 
 ### Advanced - Templating
 
