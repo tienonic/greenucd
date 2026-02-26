@@ -1,3 +1,23 @@
+/* ===== Self-hosted JetBrains Mono =====
+ * Two weights used across the site: 400 (regular) and 700 (bold).
+ * Files live in /fonts/ — no external requests to Google Fonts. */
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
 body {
   padding: 60px 0px 20px 0px;
 }
@@ -217,6 +237,15 @@ body {
   transform: scale(1.04) rotate(0deg) !important;
   box-shadow: 6px 10px 30px rgba(0, 0, 0, 0.22);
   z-index: 2;
+}
+
+/* Prevent saving/copying scrapbook and officer photos */
+.green-photo img,
+.officer-card img {
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .green-photo img {

@@ -1,0 +1,501 @@
+/*
+ * bootstrap-slim.css
+ * ------------------
+ * Minimal Bootstrap 3-compatible stylesheet containing only the classes
+ * used across the GREEN Innovation Network site. Replaces the full
+ * bootstrap.min.css (~108 KB) with ~4 KB of clean, readable CSS.
+ *
+ * Sections:
+ *   1. Reset & Base
+ *   2. Grid System
+ *   3. Navbar
+ *   4. Dropdowns
+ *   5. Responsive Visibility
+ *   6. Utilities
+ */
+
+
+/* ===== 1. Reset & Base ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  margin: 0;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+
+p {
+  margin: 0 0 10px;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+small {
+  font-size: 85%;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+/* ===== 2. Grid System ===== */
+/* Bootstrap 3 float-based 12-column grid.
+ * Breakpoints: xs (<768), sm (>=768), md (>=992), lg (>=1200) */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Base column styles — all columns get padding and relative positioning */
+.col-xs-4,
+.col-sm-4,
+.col-md-2, .col-md-3, .col-md-5, .col-md-7,
+.col-lg-2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* xs columns — always active (no media query) */
+.col-xs-4 {
+  float: left;
+  width: 33.3333%;
+}
+
+/* sm columns — active at >=768px */
+@media (min-width: 768px) {
+  .col-sm-4 {
+    float: left;
+    width: 33.3333%;
+  }
+}
+
+/* md columns — active at >=992px */
+@media (min-width: 992px) {
+  .col-md-2 {
+    float: left;
+    width: 16.6667%;
+  }
+  .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-md-5 {
+    float: left;
+    width: 41.6667%;
+  }
+  .col-md-7 {
+    float: left;
+    width: 58.3333%;
+  }
+}
+
+/* lg columns — active at >=1200px */
+@media (min-width: 1200px) {
+  .col-lg-2 {
+    float: left;
+    width: 16.6667%;
+  }
+}
+
+
+/* ===== 3. Navbar ===== */
+/* Bootstrap 3 default navbar: fixed-top, hamburger on mobile, inline on desktop */
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+}
+
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* Brand */
+.navbar-brand {
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+  text-decoration: none;
+}
+
+/* Navbar header — contains brand + toggle */
+.navbar-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Hamburger toggle button — visible only on mobile */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #888;
+}
+
+.icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+/* Nav list — strip default list styles */
+.nav {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+/* ---- Mobile-first collapse ---- */
+/* On mobile: navbar-collapse is hidden by default, shown with .in */
+.navbar-collapse {
+  overflow-x: visible;
+  border-top: 1px solid transparent;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+/* Mobile navbar-nav: full-width stacked links */
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+/* ---- Desktop (>=768px): inline navbar ---- */
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+
+  /* Always show collapse on desktop — override .collapse { display: none } */
+  .navbar-collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+    border-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+  }
+
+  /* Hide the hamburger on desktop */
+  .navbar-toggle {
+    display: none;
+  }
+
+  /* Inline nav items */
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+
+  .navbar-nav > li {
+    float: left;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+
+/* ===== 4. Dropdowns ===== */
+/* Click-toggled dropdown menus. JS adds .open to the parent .dropdown li. */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+/* Caret arrow */
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* The dropdown menu itself — hidden by default */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+/* Show menu when parent has .open */
+.open > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857;
+  color: #333;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  background-color: #f5f5f5;
+  text-decoration: none;
+}
+
+/* Section header inside dropdown */
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: #777;
+  white-space: nowrap;
+}
+
+/* Divider line between groups */
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* On mobile, dropdowns are inline (not absolutely positioned) */
+@media (max-width: 767px) {
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .navbar-nav .dropdown-menu > li > a {
+    padding: 5px 15px 5px 25px;
+    line-height: 20px;
+  }
+
+  .navbar-nav .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+
+  /* Always show dropdown contents on mobile (no toggle needed) */
+  .navbar-nav .open .dropdown-menu {
+    display: block;
+  }
+}
+
+
+/* ===== 5. Responsive Visibility ===== */
+/* Bootstrap 3 responsive visibility utilities.
+ * Each .hidden-* class hides content at that breakpoint only. */
+
+/* hidden-xs: hide below 768px */
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+/* hidden-sm: hide between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+/* hidden-md: hide between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+/* hidden-lg: hide at 1200px and above */
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+
+/* ===== 6. Utilities ===== */
+
+/* Page header — top-level section header with bottom border */
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Lead paragraph — emphasized intro text */
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
+}
