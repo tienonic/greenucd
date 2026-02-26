@@ -18,7 +18,7 @@ Interested in joining the board? Reach out to us at [greenucd@gmail.com](mailto:
         {% for officer_id in position.officers %}
           {% assign officer = site.data.officers[officer_id] %}
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 officer-card">
-            <img height="112" width="112" alt="" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
+            <img height="112" width="112" alt="" style="object-fit: cover;" src="/images/leaders/{{ officer.photo | default: 'beaver.jpg'}}"/>
             <div class="officer-info">
               <strong class="officer-name">{{ officer.name }}</strong>
               <span class="officer-title">{{ position.title }}</span>
