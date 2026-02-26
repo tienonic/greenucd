@@ -15,7 +15,7 @@ layout: default
 
 <!-- Desktop: hero -->
 <div class="green-hero hidden-xs hidden-sm">
-  <img src="/images/green/soldering-group.jpg" alt="GREEN members soldering" class="green-hero-img">
+  <img src="/images/green/soldering-group.jpg" alt="GREEN members soldering" class="green-hero-img" fetchpriority="high">
   <div class="green-hero-text">
     <h1>Build. Grow.<br>Sustain.</h1>
     <p class="green-hero-sub">Agricultural Technology at UC Davis</p>
@@ -37,36 +37,36 @@ layout: default
 <div class="green-scrapbook">
   <div class="green-scrapbook-row">
     <div class="green-photo green-photo-1">
-      <img src="/images/green/vineyard.jpg" alt="GREEN members at vineyard" loading="lazy">
+      <img src="/images/green/vineyard.jpg" alt="GREEN members at vineyard" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-2">
-      <img src="/images/green/soldering.jpg" alt="GREEN soldering" loading="lazy">
+      <img src="/images/green/soldering.jpg" alt="GREEN soldering" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-3">
-      <img src="/images/green/booth.jpg" alt="GREEN at the Picnic Day booth" loading="lazy">
+      <img src="/images/green/booth.jpg" alt="GREEN at the Picnic Day booth" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-4">
-      <img src="/images/green/meeting.jpg" alt="GREEN weekly meeting" loading="lazy">
+      <img src="/images/green/meeting.jpg" alt="GREEN weekly meeting" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-5">
-      <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse" loading="lazy">
+      <img src="/images/green/greenhouse.jpg" alt="GREEN greenhouse" loading="lazy" decoding="async">
     </div>
   </div>
   <div class="green-scrapbook-row">
     <div class="green-photo green-photo-6">
-      <img src="/images/green/farm.jpg" alt="GREEN farm visit" loading="lazy">
+      <img src="/images/green/farm.jpg" alt="GREEN farm visit" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-7">
-      <img src="/images/green/sperra-event.jpg" alt="GREEN Sperra speaker event" loading="lazy">
+      <img src="/images/green/sperra-event.jpg" alt="GREEN Sperra speaker event" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-8">
-      <img src="/images/green/speaker-series.jpg" alt="GREEN speaker series" loading="lazy">
+      <img src="/images/green/speaker-series.jpg" alt="GREEN speaker series" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-9">
-      <img src="/images/green/soldering-closeup.jpg" alt="GREEN soldering closeup" loading="lazy">
+      <img src="/images/green/soldering-closeup.jpg" alt="GREEN soldering closeup" loading="lazy" decoding="async">
     </div>
     <div class="green-photo green-photo-10">
-      <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference" loading="lazy">
+      <img src="/images/green/agtech-conf.jpg" alt="GREEN AgTech conference" loading="lazy" decoding="async">
     </div>
   </div>
 </div>
