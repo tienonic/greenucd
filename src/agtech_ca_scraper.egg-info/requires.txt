@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+lxml
+httpx
+
+[browser]
+playwright
+
+[dev]
+pytest
+responses

@@ -1,0 +1,8 @@
+CLAUDE.md
+.claude/
+__pycache__/
+*.pyc
+.venv/
+*.db
+sbir_ca_cache.csv
+.pytest_cache/

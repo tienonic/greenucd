@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: agtech-ca-scraper
+Version: 0.1.0
+Summary: Comprehensive database of California agriculture technology companies (2022-2026)
+Requires-Python: >=3.11
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: httpx
+Provides-Extra: browser
+Requires-Dist: playwright; extra == "browser"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: responses; extra == "dev"
