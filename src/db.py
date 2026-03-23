@@ -228,6 +228,61 @@ class Database:
         self.conn.commit()
         return cur.lastrowid
 
+    def normalize_country_values(self) -> int:
+        """Normalize variant country strings to 'US'. Returns rows updated."""
+        cur = self.conn.execute(
+            "UPDATE companies SET country = 'US' "
+            "WHERE country IN ('United States', 'USA', 'U.S.', 'U.S.A.')"
+        )
+        self.conn.commit()
+        return cur.rowcount
+
+    def apply_web_enrichment(self, slug: str, fields: dict) -> list[str]:
+        """Apply enrichment fields to a company, only filling empty/UNKNOWN fields.
+
+        Returns list of field names that were updated.
+        """
+        company = self.get_company_by_slug(slug)
+        if company is None:
+            return []
+
+        updates = []
+        params = []
+
+        if fields.get("category") and fields["category"] != "UNKNOWN":
+            if company.category == Category.UNKNOWN:
+                updates.append("category = ?")
+                params.append(fields["category"])
+
+        if fields.get("website") and not company.website:
+            updates.append("website = ?")
+            params.append(fields["website"])
+
+        if fields.get("description"):
+            if not company.description or len(company.description) < 20:
+                updates.append("description = ?")
+                params.append(fields["description"])
+
+        if fields.get("founded_year") and not company.founded_year:
+            updates.append("founded_year = ?")
+            params.append(fields["founded_year"])
+
+        if fields.get("status") and fields["status"] != "UNKNOWN":
+            if company.status == Status.UNKNOWN:
+                updates.append("status = ?")
+                params.append(fields["status"])
+
+        if not updates:
+            return []
+
+        params.append(slug)
+        self.conn.execute(
+            f"UPDATE companies SET {', '.join(updates)} WHERE slug = ?",
+            params,
+        )
+        self.conn.commit()
+        return [u.split(" =")[0] for u in updates]
+
     def stats(self) -> dict:
         """Return summary statistics."""
         total = self.count_companies()

@@ -377,7 +377,7 @@ body {
   font-size: 14px;
   pointer-events: none;
   z-index: 9999;
-  max-width: 300px;
+  max-width: 340px;
   box-shadow: rgba(15,15,15,0.05) 0px 0px 0px 1px, rgba(15,15,15,0.1) 0px 5px 10px, rgba(15,15,15,0.2) 0px 15px 40px;
   display: none;
   color: rgba(255,255,255,0.9);
@@ -386,6 +386,11 @@ body {
 #tooltip .tt-row { display: flex; justify-content: space-between; gap: 16px; padding: 3px 0; font-size: 13px; }
 #tooltip .tt-label { color: rgba(255,255,255,0.4); }
 #tooltip .tt-desc { margin-top: 8px; color: rgba(255,255,255,0.6); font-size: 13px; line-height: 1.5; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 8px; }
+#tooltip .tt-rounds { margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 6px; }
+#tooltip .tt-round { display: flex; justify-content: space-between; gap: 12px; padding: 2px 0; font-size: 12px; color: rgba(255,255,255,0.7); }
+#tooltip .tt-round-type { color: rgba(255,255,255,0.5); min-width: 70px; }
+#tooltip .tt-round-amount { font-weight: 500; color: #4ade80; }
+#tooltip .tt-round-date { color: rgba(255,255,255,0.35); font-size: 11px; }
 </style>
 </head>
 <body>
@@ -401,8 +406,9 @@ body {
   <div class="stat"><div class="value" id="stat-total">0</div><div class="label">Total</div></div>
   <div class="stat"><div class="value" id="stat-funding">$0</div><div class="label">Funding</div></div>
   <div class="stat"><div class="value" id="stat-sectors">0</div><div class="label">Sectors</div></div>
-  <div class="stat"><div class="value" id="stat-live" style="color:#4ade80">0</div><div class="label">Live</div></div>
+  <div class="stat"><div class="value" id="stat-live" style="color:#4ade80">0</div><div class="label">Active</div></div>
   <div class="stat"><div class="value" id="stat-dead" style="color:#f87171">0</div><div class="label">Dead</div></div>
+  <div class="stat"><div class="value" id="stat-unverified" style="color:rgba(255,255,255,0.4)">0</div><div class="label">Unverified</div></div>
   <div class="stat"><div class="value" id="stat-showing" style="color:#fbbf24">0</div><div class="label">Showing</div></div>
 </div>
 
@@ -644,9 +650,17 @@ function updateStats(filtered, sectors) {
   document.getElementById('stat-total').textContent = DATA.companies.length.toLocaleString();
   document.getElementById('stat-funding').textContent = fmt(funding) || '$0';
   document.getElementById('stat-sectors').textContent = sectors.length;
+  var unverified = filtered.length - live - dead;
   document.getElementById('stat-live').textContent = live;
   document.getElementById('stat-dead').textContent = dead;
+  document.getElementById('stat-unverified').textContent = unverified;
   document.getElementById('stat-showing').textContent = filtered.length;
+
+  // Also update the "Showing" stat to reflect filtered count vs zoomed count
+  if (zoomedCategory) {
+    var zoomedCount = filtered.filter(function(c) { return c.category === zoomedCategory; }).length;
+    document.getElementById('stat-showing').textContent = zoomedCount;
+  }
 }
 
 // ─────────────────────────────────────────────
@@ -888,7 +902,7 @@ function buildCirclePacking(filtered) {
     var treemapRoot = d3.hierarchy({
       name: 'root',
       children: companies.map(function(c) {
-        return Object.assign({}, c, { value: Math.max(c.funding || 1, 1) });
+        return Object.assign({}, c, { value: Math.log1p(c.funding || 0) + 1 });
       })
     })
       .sum(function(d) { return d.value; })
@@ -913,16 +927,43 @@ function buildCirclePacking(filtered) {
       .style('cursor', 'pointer')
       .on('mousemove', function(e, d) {
         var desc = d.data.description || '';
-        var shortDesc = desc.length > 100 ? desc.slice(0, 100) + '...' : desc;
+        var shortDesc = desc.length > 120 ? desc.slice(0, 120) + '...' : desc;
         var statusColor = d.data.status === 'LIVE' ? '#4ade80' : d.data.status === 'DEAD' ? '#f87171' : '#888';
+        var roundsHtml = '';
+        if (d.data.funding_rounds && d.data.funding_rounds.length > 0) {
+          var detailRounds = d.data.funding_rounds.filter(function(r) {
+            return r.type && r.type !== 'total_raised' && r.type !== 'total_raised_web';
+          });
+          if (detailRounds.length > 0) {
+            roundsHtml = '<div class="tt-rounds">';
+            detailRounds.forEach(function(r) {
+              var rType = r.type || 'Round';
+              var rAmt = r.amount ? fmt(r.amount) : '';
+              var rDate = r.date ? r.date.slice(0, 7) : '';
+              roundsHtml += '<div class="tt-round">' +
+                '<span class="tt-round-type">' + esc(rType) + '</span>' +
+                (rAmt ? '<span class="tt-round-amount">' + rAmt + '</span>' : '') +
+                (rDate ? '<span class="tt-round-date">' + rDate + '</span>' : '') +
+                '</div>';
+            });
+            roundsHtml += '</div>';
+          }
+        }
+        var srcHtml = '';
+        if (d.data.sources && d.data.sources.length > 0) {
+          srcHtml = '<div class="tt-row"><span class="tt-label">Sources</span><span>' + esc(d.data.sources.join(', ')) + '</span></div>';
+        }
         tooltip.innerHTML =
           '<div class="tt-name">' + esc(d.data.name) + '</div>' +
-          '<div class="tt-row"><span class="tt-label">Funding</span><span>' + (fmt(d.data.funding) || 'N/A') + '</span></div>' +
+          '<div class="tt-row"><span class="tt-label">Category</span><span>' + esc(d.data.category) + '</span></div>' +
+          '<div class="tt-row"><span class="tt-label">Total Funding</span><span>' + (d.data.funding > 0 ? fmt(d.data.funding) : 'N/A') + '</span></div>' +
           '<div class="tt-row"><span class="tt-label">Status</span><span style="color:' + statusColor + '">' + esc(d.data.status) + '</span></div>' +
+          srcHtml +
+          roundsHtml +
           (shortDesc ? '<div class="tt-desc">' + esc(shortDesc) + '</div>' : '');
         tooltip.style.display = 'block';
-        tooltip.style.left = Math.min(e.clientX + 14, window.innerWidth - 295) + 'px';
-        tooltip.style.top = Math.min(e.clientY - 10, window.innerHeight - 180) + 'px';
+        tooltip.style.left = Math.min(e.clientX + 14, window.innerWidth - 340) + 'px';
+        tooltip.style.top = Math.min(e.clientY - 10, window.innerHeight - 250) + 'px';
       })
       .on('mouseleave', function() { tooltip.style.display = 'none'; })
       .on('dblclick', function(e, d) {
@@ -1179,7 +1220,7 @@ function renderDetailView(companies, category) {
 
   var root = d3.hierarchy({
     name: 'root',
-    children: companies.map(function(c) { return Object.assign({}, c, { value: Math.max(c.funding || 1, 1) }); })
+    children: companies.map(function(c) { return Object.assign({}, c, { value: Math.log1p(c.funding || 0) + 1 }); })
   })
     .sum(function(d) { return d.value; })
     .sort(function(a, b) { return b.value - a.value; });
@@ -1300,6 +1341,8 @@ function renderList(companies) {
 // ─────────────────────────────────────────────
 function updateSidebarForZoom() {
   var filtered = getFiltered();
+  var sectors = buildSectors(filtered);
+  updateStats(filtered, sectors);
   var sidebarLabel = document.getElementById('sidebar-label');
   var sidebarHeader = document.querySelector('.sidebar-header');
   if (zoomedCategory) {

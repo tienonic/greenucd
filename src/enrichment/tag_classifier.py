@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import logging
 
 from src.db import Database
@@ -10,9 +11,13 @@ from src.models import Category
 logger = logging.getLogger(__name__)
 
 TAG_TO_CATEGORY: dict[str, Category] = {
+    # Robotics
     "robotics": Category.ROBOTICS,
     "autonomous vehicles": Category.ROBOTICS,
     "automation": Category.ROBOTICS,
+    "robotics & automation": Category.ROBOTICS,
+    "robotics & hardware": Category.ROBOTICS,
+    # Precision Ag
     "drone": Category.PRECISION_AG,
     "drones": Category.PRECISION_AG,
     "uav": Category.PRECISION_AG,
@@ -23,6 +28,10 @@ TAG_TO_CATEGORY: dict[str, Category] = {
     "sensor": Category.PRECISION_AG,
     "sensors": Category.PRECISION_AG,
     "iot": Category.PRECISION_AG,
+    "connected devices": Category.PRECISION_AG,
+    "hardware": Category.PRECISION_AG,
+    "environment": Category.PRECISION_AG,
+    # Farm Software
     "software": Category.FARM_SOFTWARE,
     "saas": Category.FARM_SOFTWARE,
     "b2b software": Category.FARM_SOFTWARE,
@@ -32,6 +41,12 @@ TAG_TO_CATEGORY: dict[str, Category] = {
     "machine learning": Category.FARM_SOFTWARE,
     "artificial intelligence": Category.FARM_SOFTWARE,
     "ai": Category.FARM_SOFTWARE,
+    "on-farm decision support": Category.FARM_SOFTWARE,
+    "agribusiness platform": Category.FARM_SOFTWARE,
+    "data analytics & ai": Category.FARM_SOFTWARE,
+    "cloud services / saas": Category.FARM_SOFTWARE,
+    "big data analytics": Category.FARM_SOFTWARE,
+    # Biotech
     "biotech": Category.BIOTECH,
     "biotechnology": Category.BIOTECH,
     "biology": Category.BIOTECH,
@@ -39,35 +54,55 @@ TAG_TO_CATEGORY: dict[str, Category] = {
     "genetics": Category.BIOTECH,
     "molecular": Category.BIOTECH,
     "life science": Category.BIOTECH,
+    "novel crop inputs": Category.BIOTECH,
+    "novel ingredients": Category.BIOTECH,
+    # Supply Chain
     "supply chain": Category.SUPPLY_CHAIN,
     "logistics": Category.SUPPLY_CHAIN,
     "e-commerce": Category.SUPPLY_CHAIN,
     "marketplace": Category.SUPPLY_CHAIN,
     "trading platform": Category.SUPPLY_CHAIN,
+    "novel packaging": Category.SUPPLY_CHAIN,
+    "next generation supply chain": Category.SUPPLY_CHAIN,
+    # Water
     "water": Category.WATER_IRRIGATION,
     "irrigation": Category.WATER_IRRIGATION,
+    "water & waste management": Category.WATER_IRRIGATION,
+    # Indoor / CEA
     "hydroponics": Category.INDOOR_CEA,
     "vertical farming": Category.INDOOR_CEA,
     "indoor farming": Category.INDOOR_CEA,
     "controlled environment": Category.INDOOR_CEA,
     "greenhouse": Category.INDOOR_CEA,
+    "cea": Category.INDOOR_CEA,
+    "next gen farms": Category.INDOOR_CEA,
+    # Fintech
     "fintech": Category.AG_FINTECH,
     "finance": Category.AG_FINTECH,
     "insurance": Category.AG_FINTECH,
     "lending": Category.AG_FINTECH,
+    # Livestock
     "livestock": Category.LIVESTOCK,
     "animal": Category.LIVESTOCK,
     "aquaculture": Category.LIVESTOCK,
     "dairy": Category.LIVESTOCK,
     "poultry": Category.LIVESTOCK,
+    "animal technology": Category.LIVESTOCK,
+    # Food Safety
     "food safety": Category.FOOD_SAFETY,
     "food processing": Category.FOOD_SAFETY,
+    "novel food and beverage": Category.FOOD_SAFETY,
+    "food tech": Category.FOOD_SAFETY,
+    "health & nutrition": Category.FOOD_SAFETY,
+    "quality and shelf life": Category.FOOD_SAFETY,
+    "quality & shelf life": Category.FOOD_SAFETY,
+    # Biocontrol
     "pest": Category.AG_BIOCONTROL,
     "crop protection": Category.AG_BIOCONTROL,
+    # Connectivity
     "connectivity": Category.CONNECTIVITY,
     "telecom": Category.CONNECTIVITY,
-    "hardware": Category.PRECISION_AG,
-    "environment": Category.PRECISION_AG,
+    "infrastructure": Category.CONNECTIVITY,
 }
 
 # Priority tiers — more specific tags should override generic ones
@@ -95,6 +130,7 @@ def classify_tags(tag_string: str) -> Category:
     if not tag_string:
         return Category.UNKNOWN
 
+    tag_string = html.unescape(tag_string)
     tags = [t.strip().lower() for t in tag_string.split(",")]
     scores: dict[Category, int] = {}
 
