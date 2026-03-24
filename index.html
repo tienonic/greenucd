@@ -407,9 +407,9 @@ body {
     <input type="text" class="search-inline" id="search" placeholder="Search companies...">
   </div>
   <div class="filter-group">
-    <label>Funded:</label>
-    <input type="range" id="funding-slider" min="0" max="7" value="0" class="funding-slider">
-    <span id="funding-slider-label" style="font-size:12px;font-weight:500;color:rgba(255,255,255,0.7);min-width:36px">Any</span>
+    <label>Max Funding:</label>
+    <input type="range" id="funding-slider" min="0" max="13" value="13" class="funding-slider">
+    <span id="funding-slider-label" style="font-size:12px;font-weight:500;color:rgba(255,255,255,0.7);min-width:36px">All</span>
   </div>
 </div>
 
@@ -542,8 +542,8 @@ function hexToRgba(hex, alpha) {
 // ─────────────────────────────────────────────
 // Application state
 // ─────────────────────────────────────────────
-var filters = { geo: 'ALL', classification: 'CLASSIFIED', search: '', minFunding: 0 };
-var FUNDING_STEPS = [0, 1e5, 5e5, 1e6, 5e6, 10e6, 50e6, 100e6];
+var filters = { geo: 'ALL', classification: 'CLASSIFIED', search: '', maxFunding: Infinity };
+var FUNDING_STEPS = [1e3, 5e3, 10e3, 25e3, 50e3, 100e3, 250e3, 500e3, 1e6, 5e6, 10e6, 50e6, 100e6, Infinity];
 var sizeMode = 'funding';
 var excludedSectors = new Set();
 var currentView = 'pack';
@@ -584,13 +584,13 @@ function setSizeMode(mode) {
 
 function getFiltered() {
   var q = filters.search.toLowerCase();
-  var minF = filters.minFunding;
+  var maxF = filters.maxFunding;
   return DATA.companies.filter(function(c) {
     if (filters.geo === 'CA' && c.hq_state !== 'CA') return false;
     if (filters.geo === 'US' && c.country && c.country !== 'US') return false;
     if (filters.classification === 'CLASSIFIED' && c.category === 'UNKNOWN') return false;
     if (filters.classification === 'FUNDED' && !(c.funding > 0)) return false;
-    if (minF > 0 && (c.funding || 0) < minF) return false;
+    if (maxF !== Infinity && (c.funding || 0) > maxF) return false;
     if (q && !c.name.toLowerCase().includes(q) && !(c.description || '').toLowerCase().includes(q)) return false;
     return true;
   });
@@ -1400,8 +1400,8 @@ var fundingSlider = document.getElementById('funding-slider');
 var fundingLabel = document.getElementById('funding-slider-label');
 fundingSlider.addEventListener('input', function() {
   var idx = parseInt(fundingSlider.value);
-  filters.minFunding = FUNDING_STEPS[idx];
-  fundingLabel.textContent = idx === 0 ? 'Any' : fmt(FUNDING_STEPS[idx]) + '+';
+  filters.maxFunding = FUNDING_STEPS[idx];
+  fundingLabel.textContent = FUNDING_STEPS[idx] === Infinity ? 'All' : '≤ ' + fmt(FUNDING_STEPS[idx]);
   refresh();
 });
 
